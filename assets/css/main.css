@@ -2133,6 +2133,21 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* Video */
+
+video {
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 /* List */
 
 	ol {
@@ -2817,7 +2832,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #264d73;
 			color: #c8ece9;
 		}
 
