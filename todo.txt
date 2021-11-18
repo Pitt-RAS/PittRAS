@@ -1,9 +1,9 @@
 add pitt logo symbol for the Website
 sponsors up front and center
 
-landing page should describe the club and then 
+landing page should describe the club  
 
 move indy stuff to a seperate indy page, or at least what you have so far
 
-
+i do not like the color of the banner on top
 need to move this is the correct github
