@@ -1,9 +1,17 @@
-add pitt logo symbol for the Website
-sponsors up front and center
+// TO DO LIST //
+[ ] Add pitt ras logo as the symbol for the Website
+[ ] Post to original URL (update CNAME)
+[ ] Update URL on the readme file
+[ ] Update readme file on how to update the Website
+[ ] Complete contact page
+[ ] Complete indy page
+[ ] complete projects page
+[ ] Complete sponsors page
+[ ] Complete workshops page
+[ ] Complete landing page
+[ ] Add google analytics
+[ ] remove .html extension
 
-landing page should describe the club  
 
-move indy stuff to a seperate indy page, or at least what you have so far
 
-i do not like the color of the banner on top
-need to move this is the correct github
+
