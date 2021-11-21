@@ -25,13 +25,6 @@ f1tenth
 sponsors
 some quick contact links/footer
 
-navigation menu will be: (SEE ABOVE NEED TO UPDATE)
-Home
-Sponsors
-Projects
-Indy Autonomous (need to brainstorm what sections we want here)
-Workshops
-Contact 
 
 indy page
 working on something big intro
