@@ -13,6 +13,10 @@
 [ ] Remove .html extension, when navigating through the site
         A link like https://pittras.org/PittRAS/subpages/indy works though (without the html), but if you navigate through the menu, it will add it
         See https://www.geeksforgeeks.org/how-to-remove-html-extension-from-url-of-a-static-page/
+
+        Okay it works but there will be a difference navigating it locally vs online. So will need to keep udpating each time before publishing
+        need to put this somewhere in the readme file? 
+        make a script for this? 
 [ ] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
 
 
