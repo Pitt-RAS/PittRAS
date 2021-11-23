@@ -2007,6 +2007,14 @@ input, select, textarea {
 			border-radius: 0;
 			padding: 0;
 		}
+        
+
+        /* .box.alt2 {
+			border: solid 1px #fff;
+			border-radius: 2px;
+			padding: 1.5em;
+		} */
+        
 
 /* Icon */
 
@@ -2147,7 +2155,7 @@ video {
     bottom: 0;
     width: 100%; 
     min-height: 100%;
-    
+
     height: auto; 
     /* z-index: -100; */
     object-fit: cover;

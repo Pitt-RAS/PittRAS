@@ -20,7 +20,7 @@
         need to put this somewhere in the readme file? 
         make a script for this? 
 [X] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
-[ ] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
+[X] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
 [ ] Add section to about us for media coverage (if its out of place move it to seperate page)
 [ ] Pitt CES press release somewhere. ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
