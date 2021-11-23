@@ -24,6 +24,8 @@
 [ ] Add section to about us for media coverage (if its out of place move it to seperate page)
 [ ] Pitt CES press release somewhere. ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
+[ ] Add Skydio as a sponsor
+[ ] fix padding for the mit-pitt-rw page on mobile
 
 
 home page could be like:
