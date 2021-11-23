@@ -4150,7 +4150,7 @@ video {
 
 @media screen and (max-width: 750px) {
     #pitt{ 
-        width: 100%
+        width: 90%
     }
 
 }
@@ -4162,7 +4162,7 @@ video {
 
 @media screen and (max-width: 750px) {
     #pnc{ 
-        width: 70%;
+        width: 65%;
         padding-bottom: 1em;
     }
 
@@ -4175,7 +4175,7 @@ video {
 
 @media screen and (max-width: 750px) {
     #argo{ 
-        width: 80%;
+        width: 70%;
         padding-bottom: 1em;
     }
 
@@ -4188,7 +4188,8 @@ video {
 
 @media screen and (max-width: 750px) {
     #iamrobotics{ 
-        width: 100%;
+        width: 80%;
+        padding-bottom: 1em;
     }
 
 }
@@ -4200,7 +4201,7 @@ video {
 
 @media screen and (max-width: 750px) {
     #skydio{ 
-        width: 100%
+        width: 60%
     }
 
 }

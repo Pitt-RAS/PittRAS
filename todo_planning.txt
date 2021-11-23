@@ -9,7 +9,7 @@
 [X] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
         then describe tiers underneath.
 [X] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
-[ ] Fix the padding on mobile for the sponsor logo stack 
+[X] Fix the padding on mobile for the sponsor logo stack 
 [ ] Complete workshops page
 [X] Complete landing page layout
 [ ] Add google analytics
@@ -26,7 +26,7 @@
 [X] Pitt CES press release somewhere. 
 [X] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
-[ ] Add Skydio as a sponsor
+[X] Add Skydio as a sponsor
 [ ] fix padding for the mit-pitt-rw page on mobile
 
 
