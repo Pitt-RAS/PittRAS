@@ -4206,4 +4206,35 @@ video {
 
 }
 
+/* mit-pitt-rw page */
+#race-overview-left{ 
+    padding-top:0em
+}
+
+@media screen and (max-width: 750px) {
+    #race-overview-left{ 
+        padding-top:0em
+    }
+}
+
+#race-overview-mid{ 
+    padding-top:5em
+}
+
+@media screen and (max-width: 750px) {
+    #race-overview-mid{ 
+        padding-top:1em
+    }
+}
+
+#race-overview-right{ 
+    padding-top:10em
+}
+
+@media screen and (max-width: 750px) {
+    #race-overview-right{ 
+        padding-top:1em
+    }
+}
+
     
