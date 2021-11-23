@@ -2,11 +2,13 @@
 [ ] Add pitt ras logo as the symbol for the Website
 [ ] Post to original URL (update CNAME)
 [ ] Update URL on the readme file
-[ ] Update readme file on how to update the Website
+[ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
 [ ] Complete contact page
 [ ] Complete indy page
 [ ] complete projects page
-[ ] Complete sponsors page
+[ ] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
+        then describe tiers underneath.
+[ ] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
 [ ] Complete workshops page
 [ ] Complete landing page
 [ ] Add google analytics
@@ -17,7 +19,11 @@
         Okay it works but there will be a difference navigating it locally vs online. So will need to keep udpating each time before publishing
         need to put this somewhere in the readme file? 
         make a script for this? 
-[ ] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
+[X] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
+[ ] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
+[ ] Add section to about us for media coverage (if its out of place move it to seperate page)
+[ ] Pitt CES press release somewhere. ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
+[X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
 
 
 home page could be like:
@@ -35,8 +41,8 @@ working on something big intro
 who are we
 goals/ project overview
 how to join
-media coverage
 technical stuff and details 
+media coverage
 sponsorship
 
 
