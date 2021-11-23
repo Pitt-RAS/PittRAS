@@ -4098,3 +4098,111 @@ video {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+/* SPONSOR LOGOS */
+
+#mobi{
+    width: 80%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #mobi{ 
+        width:100%;
+        padding-bottom: 1em;
+    }
+    /* body {
+      background: url("../../images/banner.jpg") no-repeat;
+      background-size: cover;
+    } */
+}
+
+
+#oracle{
+    width: 90%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #oracle{ 
+        width: 92%;
+        padding-bottom: 0.1em;
+    }
+
+}
+
+#sponsor_row_2{
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 750px) {
+    #sponsor_row_2{ 
+        padding-top: 0em;
+    }
+
+}
+
+#pitt{
+    width: 100%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #pitt{ 
+        width: 100%
+    }
+
+}
+
+#pnc{
+    width: 70%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #pnc{ 
+        width: 70%;
+        padding-bottom: 1em;
+    }
+
+}
+
+#argo{
+    width: 80%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #argo{ 
+        width: 80%;
+        padding-bottom: 1em;
+    }
+
+}
+
+#iamrobotics{
+    width: 100%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #iamrobotics{ 
+        width: 100%;
+    }
+
+}
+
+#skydio{
+    width: 100%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #skydio{ 
+        width: 100%
+    }
+
+}
+
+    

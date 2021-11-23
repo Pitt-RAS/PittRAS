@@ -4,13 +4,14 @@
 [ ] Update URL on the readme file
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
 [ ] Complete contact page
-[ ] Complete indy page
+[X] Complete mit-pitt-rw page layout
 [ ] complete projects page
-[ ] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
+[X] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
         then describe tiers underneath.
-[ ] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
+[X] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
+[ ] Fix the padding on mobile for the sponsor logo stack 
 [ ] Complete workshops page
-[ ] Complete landing page
+[X] Complete landing page layout
 [ ] Add google analytics
 [ ] Remove .html extension, when navigating through the site
         A link like https://pittras.org/PittRAS/subpages/indy works though (without the html), but if you navigate through the menu, it will add it
@@ -21,8 +22,9 @@
         make a script for this? 
 [X] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
 [X] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
-[ ] Add section to about us for media coverage (if its out of place move it to seperate page)
-[ ] Pitt CES press release somewhere. ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
+[X] Add section to about us for media coverage (if its out of place move it to seperate page)
+[X] Pitt CES press release somewhere. 
+[X] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
 [ ] Add Skydio as a sponsor
 [ ] fix padding for the mit-pitt-rw page on mobile
