@@ -1,5 +1,5 @@
 // TO DO LIST //
-[ ] Add pitt ras logo as the symbol for the Website
+[X] Add pitt ras logo as the symbol for the Website
 [ ] Post to original URL (update CNAME)
 [ ] Update URL on the readme file
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
@@ -27,7 +27,7 @@
 [X] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
 [X] Add Skydio as a sponsor
-[ ] fix padding for the mit-pitt-rw page on mobile
+[X] fix padding for the mit-pitt-rw page on mobile
 
 
 home page could be like:
