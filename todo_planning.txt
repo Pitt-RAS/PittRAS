@@ -5,7 +5,7 @@
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
 [X] Complete contact page
 [ ] Need a google form for RAS recruiting on the contact page.
-[ ] need to add sponsor descriptions on the sponsor page. Logos should probably be links to the sponsor website as well? 
+[X] need to add sponsor descriptions on the sponsor page. Logos should probably be links to the sponsor website as well? 
         I’d also put a short description of the company (logo on left side) with link to the company site for the sponsor page. 
         The description can be grabbed from the company site
 [X] Complete mit-pitt-rw page layout
