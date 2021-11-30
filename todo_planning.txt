@@ -3,6 +3,7 @@
 [ ] Post to original URL (update CNAME)
 [ ] Update URL on the readme file
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
+[ ] Check the size of the old repo and see if it is feasible to include in the old repo in the new repo as a website archive.
 [X] Complete contact page
 [ ] Need a google form for RAS recruiting on the contact page.
 [X] need to add sponsor descriptions on the sponsor page. Logos should probably be links to the sponsor website as well? 
