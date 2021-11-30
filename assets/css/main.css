@@ -4211,12 +4211,15 @@ video {
 
 /* mit-pitt-rw page */
 #race-overview-left{ 
-    padding-top:0em
+    padding-top:0em;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1100px) {
     #race-overview-left{ 
-        padding-top:0em
+        padding-top:0em;
+        vertical-align: middle; 
+        align-content: center; 
+        justify-content: center;
     }
 }
 
@@ -4224,9 +4227,12 @@ video {
     padding-top:5em
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1100px) {
     #race-overview-mid{ 
-        padding-top:1em
+        padding-top:1em;
+        vertical-align: middle; 
+        align-content: center; 
+        justify-content: center;
     }
 }
 
@@ -4234,9 +4240,12 @@ video {
     padding-top:10em
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1100px) {
     #race-overview-right{ 
-        padding-top:1em
+        padding-top:1em;
+        vertical-align: middle; 
+        align-content: center; 
+        justify-content: center;
     }
 }
 

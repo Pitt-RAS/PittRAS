@@ -3,7 +3,11 @@
 [ ] Post to original URL (update CNAME)
 [ ] Update URL on the readme file
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
-[ ] Complete contact page
+[X] Complete contact page
+[ ] Need a google form for RAS recruiting on the contact page.
+[ ] need to add sponsor descriptions on the sponsor page. Logos should probably be links to the sponsor website as well? 
+        I’d also put a short description of the company (logo on left side) with link to the company site for the sponsor page. 
+        The description can be grabbed from the company site
 [X] Complete mit-pitt-rw page layout
 [ ] complete projects page
 [X] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
@@ -20,6 +24,10 @@
         Okay it works but there will be a difference navigating it locally vs online. So will need to keep udpating each time before publishing
         need to put this somewhere in the readme file? 
         make a script for this? 
+
+        I feel like theres an easier way to do this. can the server just rewrote to the same page but removing the .html
+        instead of removing that locally, and making the server add it on the server side? cause that already works. 
+
 [X] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
 [X] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
 [X] Add section to about us for media coverage (if its out of place move it to seperate page)
