@@ -4216,7 +4216,7 @@ video {
 
 @media screen and (max-width: 1100px) {
     #race-overview-left{ 
-        padding-top:0em;
+        padding-top:1em;
         vertical-align: middle; 
         align-content: center; 
         justify-content: center;
