@@ -10,7 +10,12 @@
         I’d also put a short description of the company (logo on left side) with link to the company site for the sponsor page. 
         The description can be grabbed from the company site
 [X] Complete mit-pitt-rw page layout
-[ ] complete projects page
+[X] complete projects page
+[ ] complete project subpages
+[ ] fix the look on a horizontal screen. it was way too stretched out and the font is way too big
+        try playing around with the font size and inner class width. ideally you want the vertical monitor look to match
+        the horizontal monitor look but without stretching it so wide that it just looks plain and boring. use
+        old RAS website as a guide. ask shane for input
 [X] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
         then describe tiers underneath.
 [X] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
@@ -33,30 +38,10 @@
 [X] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
 [X] Add section to about us for media coverage (if its out of place move it to seperate page)
 [X] Pitt CES press release somewhere. 
-[X] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? 
+[ ] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? like lidar stuff? our car driving? any other kind of videos?
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
 [X] Add Skydio as a sponsor
 [X] fix padding for the mit-pitt-rw page on mobile
-
-
-home page could be like:
-animated startup
-quick about section / club mission
-indy section
-navigation buttons for indy section (learn more, how to join, become a sponsor)
-f1tenth
-sponsors
-some quick contact links/footer
-
-
-indy page
-working on something big intro
-who are we
-goals/ project overview
-how to join
-technical stuff and details 
-media coverage
-sponsorship
 
 
 
