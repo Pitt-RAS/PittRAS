@@ -11,19 +11,20 @@
         The description can be grabbed from the company site
 [X] Complete mit-pitt-rw page layout
 [X] complete projects page
-[ ] Fix padding on mobile for projects page.
+[X] Fix padding on mobile for projects page.
 [ ] Consider redoing setup on mobile for project page. images are way too small now. but fix general website formatting first before you do this
-[ ] Consider redoing setup on mobile for sponsors page. logos are way too small now. but fix general website formatting first before you do this
+[X] Consider redoing setup on mobile for sponsors page. logos are way too small now. but fix general website formatting first before you do this
 [ ] complete project subpages
-[ ] fix the look on a horizontal screen. it was way too stretched out and the font is way too big
+[X] fix the look on a horizontal screen. it was way too stretched out and the font is way too big
         try playing around with the font size and inner class width. ideally you want the vertical monitor look to match
         the horizontal monitor look but without stretching it so wide that it just looks plain and boring. use
-        old RAS website as a guide. ask shane for input
+        old RAS website as a guide.
 [X] Complete sponsors page, was thinking like making a grid with all the sponsorss and have their logo be different sizes at the top, like fuck with column settings. 
         then describe tiers underneath.
 [X] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
 [X] Fix the padding on mobile for the sponsor logo stack 
 [ ] Complete workshops page
+[ ] Add executive board and project leads to about us page? or just executive board?
 [X] Complete landing page layout
 [ ] Add google analytics
 [ ] Remove .html extension, when navigating through the site
