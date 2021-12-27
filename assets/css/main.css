@@ -3992,6 +3992,8 @@ video {
 		padding: 3em 0 1em 0 ;
 		background-color: #1d242a;
 		text-align: center;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
 	}
 
 		#footer .icons {
@@ -4053,6 +4055,7 @@ video {
 
 			#footer {
 				padding: 4em 3em 2em 3em ;
+                /* padding: 0em 0em 0em 0em ; */
 			}
 
 		}
@@ -4061,6 +4064,7 @@ video {
 
 			#footer {
 				padding: 3em 2em 1em 2em ;
+                /* padding: 0em 0em 0em 0em ; */
 			}
 
 		}
@@ -4103,12 +4107,20 @@ video {
 	}
 
 /* -------------------- */
-/* SPONSOR LOGOS */
+/* SPONSOR LOGOS, for top of sponsor page and also for the footer.*/
 /* -------------------- */
 
 #mobi{
     width:75%; 
     height:auto;
+    padding-bottom: 0em;
+}
+
+@media screen and (max-width: 1280px) {
+    #mobi{ 
+        width:100%;
+        padding-bottom: 0em;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -4116,16 +4128,22 @@ video {
         width:100%;
         padding-bottom: 1em;
     }
-    /* body {
-      background: url("../../images/banner.jpg") no-repeat;
-      background-size: cover;
-    } */
 }
+
+
 
 
 #oracle{
     width: 80%; 
     height:auto;
+    padding-bottom: 0em;
+}
+
+@media screen and (max-width: 1280px) {
+    #oracle{ 
+        width:92%;
+        padding-bottom: 0em;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -4136,32 +4154,34 @@ video {
 
 }
 
-#sponsor_row_2{
-    padding-top: 0em;
-}
-
-@media screen and (max-width: 750px) {
-    #sponsor_row_2{ 
-        padding-top: 0em;
-    }
-
-}
-
 #pitt{
     width: 90%; 
     height:auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #pitt{ 
+        width: 80%
+    }
 }
 
 @media screen and (max-width: 750px) {
     #pitt{ 
         width: 90%
     }
-
 }
+
 
 #pnc{
     width: 65%; 
     height:auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #pnc{ 
+        width: 65%;
+        padding-bottom: 0em;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -4169,12 +4189,28 @@ video {
         width: 65%;
         padding-bottom: 1em;
     }
-
 }
+
+
 
 #argo{
     width: 90%; 
     height:auto;
+}
+
+
+@media screen and (max-width: 1380px) {
+    #argo{ 
+        width: 90%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #argo{ 
+        width: 90%;
+        padding-bottom: 0em;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -4182,20 +4218,33 @@ video {
         width: 70%;
         padding-bottom: 1em;
     }
-
 }
+
 
 #iamrobotics{
     width: 110%; 
     height:auto;
 }
 
+@media screen and (max-width: 1380px) {
+    #iamrobotics{ 
+        width: 100%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #iamrobotics{ 
+        width: 100%;
+        padding-bottom: 0em;
+    }
+}
+
 @media screen and (max-width: 750px) {
     #iamrobotics{ 
         width: 80%;
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
     }
-
 }
 
 #skydio{
@@ -4203,11 +4252,74 @@ video {
     height:auto;
 }
 
+@media screen and (max-width: 1380px) {
+    #skydio{ 
+        width: 90%
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    #skydio{ 
+        width: 90%
+    }
+}
+
 @media screen and (max-width: 750px) {
     #skydio{ 
         width: 60%
     }
+}
 
+/* for the footer */
+.sponsor-centering{
+    width: 100%;
+    margin-left: -14px;
+    overflow-x: visible;
+    overflow-y: visible;
+    
+}
+
+#sponsor-row-1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%
+}
+
+@media screen and (max-width: 1700px) {
+    #sponsor-row-1{
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    #sponsor-row-1{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+#sponsor-row-2{
+    padding-top: 0em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 63%
+}
+
+@media screen and (max-width: 1700px) {
+    #sponsor-row-2{ 
+        padding-top: 0em;
+        width: 90%
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #sponsor-row-2{ 
+        padding-top: 0em;
+    }
 }
 
 
