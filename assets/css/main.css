@@ -104,10 +104,10 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-size: 13.5pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
-		line-height: 1.65em;
+		line-height: 1.5em;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -166,7 +166,7 @@ input, select, textarea {
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
-		line-height: 1em;
+		line-height: 0.8em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
@@ -2836,7 +2836,7 @@ video {
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			width: 80em;
 			margin: 0 auto;
 		}
 
@@ -4102,11 +4102,12 @@ video {
 		background-color: #1d242a;
 	}
 
-
+/* -------------------- */
 /* SPONSOR LOGOS */
+/* -------------------- */
 
 #mobi{
-    width: 80%; 
+    width:75%; 
     height:auto;
 }
 
@@ -4123,7 +4124,7 @@ video {
 
 
 #oracle{
-    width: 90%; 
+    width: 80%; 
     height:auto;
 }
 
@@ -4136,7 +4137,7 @@ video {
 }
 
 #sponsor_row_2{
-    padding-top: 2em;
+    padding-top: 0em;
 }
 
 @media screen and (max-width: 750px) {
@@ -4147,7 +4148,7 @@ video {
 }
 
 #pitt{
-    width: 100%; 
+    width: 90%; 
     height:auto;
 }
 
@@ -4159,7 +4160,7 @@ video {
 }
 
 #pnc{
-    width: 70%; 
+    width: 65%; 
     height:auto;
 }
 
@@ -4172,7 +4173,7 @@ video {
 }
 
 #argo{
-    width: 80%; 
+    width: 90%; 
     height:auto;
 }
 
@@ -4185,7 +4186,7 @@ video {
 }
 
 #iamrobotics{
-    width: 100%; 
+    width: 110%; 
     height:auto;
 }
 
@@ -4209,7 +4210,135 @@ video {
 
 }
 
+
+/* -------------------- */
+/* SPONSOR page logos for the description */
+/* -------------------- */
+#sponsors {
+    display:flex;
+    flex-direction:column;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center; 
+    width:20%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #sponsors{ 
+        width:60%; 
+        height:auto;
+        margin-top: 1.3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+#sponsors-text {
+    display:flex;
+    flex-direction:column;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width:80%;
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #sponsors-text{ 
+        display:flex;
+        flex-direction:column;
+        vertical-align: middle;
+        align-content: center;
+        justify-content: center; 
+        width:100%; 
+        height:auto;
+    }
+
+}
+
+#sponsors-argo {
+    display:flex;
+    flex-direction:column;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center; 
+    width:20%; 
+    height:auto;
+}
+
+@media screen and (max-width: 750px) {
+    #sponsors-argo{ 
+        width:60%; 
+        height:auto;
+        margin-top: 1.3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+#sponsors-title {
+    text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+    #sponsors-title{ 
+        text-align: center;
+        font-size:15pt
+    }
+
+}
+
+#sponsors-ras-logo {
+    width: 12%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1em;
+    height:auto
+}
+
+@media screen and (max-width: 1100px) {
+    #sponsors-ras-logo{ 
+        width: 50%;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 1em;
+        height:auto
+    }
+}
+
+#ras-logo {
+    width: 20%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1em;
+    height:auto
+}
+
+@media screen and (max-width: 1100px) {
+    #ras-logo{ 
+        width: 50%;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 1em;
+        height:auto
+    }
+
+}
+
+
+/* -------------------- */
 /* mit-pitt-rw page */
+/* -------------------- */
+
+
 #race-overview-left{ 
     padding-top:0em;
 }
@@ -4249,4 +4378,48 @@ video {
     }
 }
 
-    
+/* -------------------- */
+/* about-us page */
+/* -------------------- */
+
+#mission-statement {
+    display:flex; 
+    flex-direction:column;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+    width: 50%
+}
+
+@media screen and (max-width: 1100px) {
+    #mission-statement{ 
+        display:flex; 
+        flex-direction:column;
+        vertical-align: middle;
+        align-content: center;
+        justify-content: center;
+        width: 1000%
+    }
+}
+
+#mission-pic {
+    display:flex;
+    flex-direction:column;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto
+}
+
+@media screen and (max-width: 1100px) {
+    #mission-pic{ 
+        display:flex;
+        flex-direction:column;
+        vertical-align: middle;
+        align-content: center;
+        justify-content: center;
+        width:100%;
+    }
+}

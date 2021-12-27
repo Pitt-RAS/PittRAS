@@ -11,6 +11,9 @@
         The description can be grabbed from the company site
 [X] Complete mit-pitt-rw page layout
 [X] complete projects page
+[ ] Fix padding on mobile for projects page.
+[ ] Consider redoing setup on mobile for project page. images are way too small now. but fix general website formatting first before you do this
+[ ] Consider redoing setup on mobile for sponsors page. logos are way too small now. but fix general website formatting first before you do this
 [ ] complete project subpages
 [ ] fix the look on a horizontal screen. it was way too stretched out and the font is way too big
         try playing around with the font size and inner class width. ideally you want the vertical monitor look to match
