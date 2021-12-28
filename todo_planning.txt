@@ -38,6 +38,7 @@
         I feel like theres an easier way to do this. can the server just rewrote to the same page but removing the .html
         instead of removing that locally, and making the server add it on the server side? cause that already works. 
 
+[ ] fix the 3 monumental races section on mobile not being centered correctly
 [X] Fix nav menu to be following order, home, about us, projects, Autonomous challenge, workshops, sponsors, contact/get involved
 [X] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
 [X] Add section to about us for media coverage (if its out of place move it to seperate page)
