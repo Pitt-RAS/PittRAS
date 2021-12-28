@@ -11,7 +11,7 @@ email: ras@pitt.edu
 description: > # this means to ignore newlines until "baseurl:"
     Website for the University of Pittsburgh's Robotics and Automation Society
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pittras.org/" # the base hostname & protocol for your site
+url: "https://pittras.org/PittRAS/Pitt-RAS.github.io-master" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

@@ -50,6 +50,7 @@
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
 [X] Add Skydio as a sponsor
 [X] fix padding for the mit-pitt-rw page on mobile
+[ ] go thru and update the og:url in the metadata
 
 Nayana Edit's
 [X] Autonomous is spelled wrong in the IAC section and F1Tenth section on homepage
