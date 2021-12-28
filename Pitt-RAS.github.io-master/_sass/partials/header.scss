@@ -1,0 +1,195 @@
+.header
+{
+    position: fixed;
+    background-color: $header__background-color;
+    color: $header__color;
+    width: 100%;
+    padding-left: $header__horizontal-padding;
+    padding-right: $header__horizontal-padding;
+    height: $header__height-sm;
+    z-index: 999;
+    font-weight: bold;
+    @media (min-width: $md)
+    {
+        position: static;
+        padding: 0;
+        height: $header__height;
+    }
+    &__container
+    {
+        height: 100%;
+    }
+    &__padding-container
+    {     
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        margin-left: $section-horizontal-padding-sm;
+        margin-right: $section-horizontal-padding-sm;
+        @media (min-width: $md)
+        { 
+            flex-direction: column;
+            justify-content: center;
+            margin-left: $section-horizontal-padding;
+            margin-right: $section-horizontal-padding;
+        }
+        @media (min-width: $lg)
+        {
+            flex-direction: row;
+        justify-content: space-between;
+        }
+    }
+    a
+    {
+        color: $header__color;
+    }
+    &__brand
+    {
+        .vertical
+        {
+            display: none;
+        }
+        @media(min-width: $md)
+        {
+            .horizontal
+            {
+                display: none;
+            }
+            .vertical
+            {
+                display: block;
+            }
+        }
+        a
+        {
+            display: flex;
+            align-items: center;
+        }
+        img
+        {
+            height: 35px;
+            @media(min-width: $lg)
+            {
+                height: 150px;
+                margin: 0;
+            }
+            @media(min-width: $md)
+            {
+                height: 100px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__hamburger
+    {
+        width: $header__hamburger-size;
+        height: $header__hamburger-size;
+        font-size: $header__hamburger-font-size;
+        cursor: pointer;
+        text-align: center;
+        border: 2px solid white;
+        transition: background-color $transition-duration, color $transition-duration;
+        &:hover
+        {
+            background-color: white;
+            color: $header__background-color;
+        }
+        @media (min-width: $md)
+        {
+            display: none;
+        }
+    }
+    &__nav
+    {
+        z-index: 999;
+        position: fixed;
+        background-color: $header__nav-background-color;
+        width: $header__nav-width;
+        top: 0;
+        right: -$header__nav-width;
+        text-transform: uppercase;
+        transition: right $transition-duration;
+        height: 100%;
+        &--active
+        {
+            right: 0;
+        }
+        @media (min-width: $md)
+        {
+            position: static;
+            background-color: inherit;
+            width: auto;
+            height: auto;
+        }
+    }
+    &__exit
+    {
+        position: absolute;
+        background-color: $header__exit-background-color;
+        top: 0;
+        right: 0;
+        width: $header__exit-size;
+        height: $header__exit-size;
+        line-height: $header__exit-size;
+        font-size: $header__exit-font-size;
+        text-align: center;
+        vertical-align: middle;
+        transition: background-color $transition-duration;
+        cursor: pointer;
+        &:hover
+        {
+            background-color: lighten($header__exit-background-color, $lighten);
+        }
+        @media (min-width: $md)
+        {
+            display: none;
+        }
+    }
+    &__menu-row
+    {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: $md)
+        {
+            margin: 0;
+            flex-direction: column;
+        }
+    }
+    &__menu-element
+    {
+        @media (min-width: $md)
+        {
+            &:not(:first-child)
+            {
+                margin-left: 70px;
+            }
+        }
+        a
+        {
+            font-size: 25px;
+        }
+        @media (max-width: $md)
+        {
+            margin-left: 30px;
+            margin-top: 30px;
+            a
+            {
+                font-size: 22px;
+            }
+        }
+    }
+}
+.header__spacer
+{
+    height: $header__height-sm;
+    @media (min-width: $md)
+    {
+        display: none;
+        height: $header__height;
+    }
+}
+

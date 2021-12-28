@@ -1,0 +1,174 @@
+---
+layout: default
+title: Home
+---
+
+<article class="home row">
+    <!--<section class="home__important">
+        {% include centerheading.html title="Important" %}
+    </section>-->
+        <div class=" col-md-8">
+        <section class="home__news">
+            {% include centerheading.html title="News Feed" %}
+
+            {% for post in paginator.posts %}
+            <div class="home__post">
+                {% if post.icon == 'trophy' %}
+                <div class="home__post-icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+                {% elsif post.icon == 'code' %}
+                <div class="home__post-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
+                {% elsif post.icon == 'picture' %}
+                <div class="home__post-icon"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
+                {% elsif post.icon == 'play' %}
+                <div class="home__post-icon"><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>
+                {% elsif post.icon == 'cogs' %}
+                <div class="home__post-icon"><i class="fa fa-cogs" aria-hidden="true"></i></div>
+                {% else %}
+                <div class="home__post-icon"><i class="fa fa-align-left" aria-hidden="true"></i></div>
+                {% endif %}
+                <h2 class="home__post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <hr>
+                {{ post.content | truncatewords:150 }}
+                <hr>
+                <div class="home__post-footer row">
+                    <div class="col-xs-12 col-sm-6">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>{{ post.author }}
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>{{ post.date | date: "%-m/%-d/%Y" }}
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <a href="{{ post.url }}"><i class="fa fa-link" aria-hidden="true"></i>Permalink</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <i class="fa fa-tag" aria-hidden="true"></i><span style="text-transform: capitalize;">{{ post.categories[0] }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% if paginator.total_pages > 1 %}
+            <nav aria-label="..." style="text-align: center">
+                <ul class="pagination">
+                  {% if paginator.previous_page %}
+                    <li class="page-item">
+                        <a href="{{ site.url }}" class="page-link" tabindex="-1">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Newest</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                           class="page-link">
+                            <span aria-hidden="true">&lsaquo;</span>
+                            <span class="sr-only">Newer</span>
+                        </a>
+                    </li>
+                  {% else %}
+                    <li class="page-item disabled">
+                        <a href="#" class="page-link" tabindex="-1">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Newest</span>
+                        </a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a href="#" class="page-link">
+                            <span aria-hidden="true">&lsaquo;</span>
+                            <span class="sr-only">Newer</span>
+                        </a>
+                    </li>
+                  {% endif %}
+
+                    <li class="page-item disabled">
+                        <span class="page-link">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                    </li>
+
+                  {% if paginator.next_page %}
+                    <li class="page-item">
+                        <a class="page-link"
+                         href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                            <span aria-hidden="true">&rsaquo;</span>
+                            <span class="sr-only">Older</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link"
+                           href="{{ paginator.next_page_path | replace: paginator.next_page, paginator.total_pages | prepend: site.baseurl | replace: '//', '/' }}">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Oldest</span>
+                        </a>
+                    </li>
+                  {% else %}
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#">
+                            <span aria-hidden="true">&rsaquo;</span>
+                            <span class="sr-only">Older</span>
+                        </a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Oldest</span>
+                        </a>
+                    </li>
+                  {% endif %}
+                </ul>
+            </nav>
+            {% endif %}
+        </section>
+    </div>
+<div class="col-md-4 pull-md-right">
+        <aside class="home__aside">
+            {% include centerheading.html title="Pinned" %}
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}/announcements/2020/08/15/fall-2020-meeting-times.html">
+                        Fall 2020 Meeting Times
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}/projects/iarc/2018/08/10/update-iarc-technical-postmortem.html">
+                        IARC Technical Postmortem 2018
+                    </a>
+                </li>
+            </ul>
+            {% include centerheading.html title="Events" %}
+            <ul>
+                <li>
+                    <a href="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=opg94gq4v8r7cms2veu9558ooc%40group.calendar.google.com&amp;color=%2329527A&amp;src=00ulkfmsef3kh43vuig4ekqav4%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FNew_York">
+                        RAS Calendar
+                     </a>
+                </li>
+
+                <li>
+                    <a href="{{ site.baseurl }}/projects">Project Meeting Times</a>
+                </li>
+            </ul>
+            <div id="archive">
+                {% include centerheading.html title="Archive" %}
+
+                  {% for post in site.posts limit:8 %}
+                    {% unless post.next %}
+                      <h5>{{ post.date | date: '%Y %b' }}</h5>
+                      <ul>
+                    {% else %}
+                      {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+                      {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
+                      {% if year != nyear %}
+                        </ul>
+                          <h5>{{ post.date | date: '%Y %b' }}</h5>
+                        <ul>
+                      {% endif %}
+                    {% endunless %}
+
+                    <li style="margin: 0"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                </ul>
+
+                {% if site.posts.size > 8 %}
+                  <a href="{{ site.baseurl }}/archive" class="btn btn-info btn-ras btn-lg btn-block" role="button">See More...</a>
+                {% endif %}
+            </div>
+        </aside>
+    </div>
+</article>

@@ -1,0 +1,117 @@
+---
+layout: page
+title: Projects
+block: projects
+permalink: /projects/
+---
+
+<section class="projects__times">
+    <div class="projects__times-table-container">
+        <h4>2020 Projects:</h4>
+        <br>
+        <table>
+            <tr>
+                <td><a href="2020-auto-indy">Indy Autonomous</a></td>
+                <td><b>Meeting<b/></td>
+                <td>Saturday at 12 pm</td>
+            </tr>
+            <tr>
+                <td><a href="2021-minisumo">Minisumo</a></td>
+                <td><b>Meeting<b/></td>
+                <td>Saturday at 3 pm</td>
+            </tr>
+
+        </table>
+    </div>
+</section>
+
+<section class="projects__projects row">
+    {% include centerheading.html title='Current Projects' %}
+    {% include projectcard.html
+        link="/projects/2020-auto-indy"
+        image_source="2020/project-auto-indy-gallery.jpg"
+        name="Indy Autonomous Challange"
+        description="A self-driving racecar."
+        %}
+	{% include projectcard.html
+        link="/projects/2021-minisumo"
+        image_source="2020/project-minisumo.jpg"
+        name="Mini Sumo 2020"
+        description="Autonomous robot which competes to push an opposing robot out of a ring."
+        %}
+
+
+</section>
+
+
+<!-- MAKE SURE ALL THESE IMAGES HAVE A 2:3 ASPECT RATIO -->
+<section class="projects__prev row">
+    {% include centerheading.html title='Previous Projects' %}
+
+    {% include projectcard.html
+        link="/projects/2017-artbot"
+        image_source="2017/project-artbot.jpg"
+        name="Artbot"
+        description="An artistic robot with some form of robotic movement."
+        %}
+    {% include projectcard.html
+        link="/projects/IARC"
+        image_source="2017/project-iarc.jpg"
+        name="IARC Mission 7"
+        description="An autonomous air vehicle capable of interaction with moving ground robots."
+        %}
+    {% include projectcard.html
+        link="/projects/2017-sailbot"
+        image_source="2017/project-sailbot.jpg"
+        name="Sailbot"
+        description="An autonomous sailboat."
+        %}
+    {% include projectcard.html
+        link="/projects/2017-micromouse"
+        image_source="2017/project-micromouse.jpg"
+        name="Micromouse"
+        description="An autonomous robot capable of solving mazes as quickly as possible."
+        %}
+    {% include projectcard.html
+        link="/projects/2017-motion-control"
+        image_source="2017/project-motion-control.jpg"
+        name="Motion Control 2017"
+        description="Research project to learn about robot motion control, with the goal of creating a motion control library that can be used on a wide variety of robots."
+        %}
+    {% include projectcard.html
+        link="/projects/2017-scorpion"
+        image_source="2017/project-scorpion.jpg"
+        name="Scorpion 2017"
+        description="Scorpion bot that can mimic a real scorpion."
+        %}
+    {% include projectcard.html
+        link="/projects/2016-rover"
+        image_source="2016/project-rover.jpg"
+        name="Rover 2016"
+        description="WiFi controlled rover"
+        %}
+    {% include projectcard.html
+        link="/projects/2016-minisumo"
+        image_source="2016/project-minisumo.jpg"
+        name="Mini Sumo 2016"
+        description="Autonomous robot which competes to push an opposing robot out of a ring."
+        %}
+    {% include projectcard.html
+        link="/projects/2016-micromouse"
+        image_source="2016/project-micromouse.jpg"
+        name="Micromouse 2016"
+        description=""
+        %}
+    {% include projectcard.html
+        link="/projects/2016-linefollower"
+        image_source="2016/project-linefollower.jpg"
+        name="Line Follower 2016"
+        description="Autonomous robot which attempts to follow a black line in a track as fast as possible."
+        %}
+    {% include projectcard.html
+        link="/projects/2015-minisumo"
+        image_source="2015/project-minisumo.jpg"
+        name="Mini Sumo 2015"
+        description="Autonomous robot which competes to push an opposing robot out of a ring."
+        %}
+</section>
