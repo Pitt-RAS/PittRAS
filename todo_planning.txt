@@ -61,7 +61,7 @@ Nayana Edit's
 [ ] I would be careful about using past tense for past projects. I think it's also fine to add another sentence to the description (esp if we won an award like IARC)
 [X] I would depracate projects that are no longer relevant (Artbot and Sailbot)
 [X] I would flip RR and IAC @ CES on the MIT-PITT-RW page to make them chronological order. 
-[ ] Also, describe the race as "multi-agent passing competition"
+[X] Also, describe the race as "multi-agent passing competition"
 [X] I don't really like my workshop so can we not link it? I'm willing to redo but don't really like the one on the site
 
 

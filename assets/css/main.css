@@ -4365,6 +4365,7 @@ video {
         vertical-align: middle;
         align-content: center;
         justify-content: center; 
+        text-align:center;
         width:100%; 
         height:auto;
     }
@@ -4571,5 +4572,24 @@ video {
     #workshop-presentation{
         width: 100%;
         height: 300px;
+    }
+}
+
+/* -------------------- */
+/* workshop main page */
+/* -------------------- */
+.workshops{
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 750px) {
+    .workshops{
+        width: 100%;
+        margin-top:0em;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
