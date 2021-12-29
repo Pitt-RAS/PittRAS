@@ -26,7 +26,7 @@
         then describe tiers underneath.
 [X] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
 [X] Fix the padding on mobile for the sponsor logo stack 
-[ ] Complete workshops page
+[X] Complete workshops page
 [ ] Add executive board and project leads to about us page? or just executive board?
 [X] Complete landing page layout
 [ ] Add google analytics
@@ -51,6 +51,7 @@
 [X] Add Skydio as a sponsor
 [X] fix padding for the mit-pitt-rw page on mobile
 [ ] go thru and update the og:url in the metadata
+[ ] add rover to the projects OMITTED
 
 Nayana Edit's
 [X] Autonomous is spelled wrong in the IAC section and F1Tenth section on homepage
@@ -59,7 +60,7 @@ Nayana Edit's
 [ ] About us Page: I would swap out the picture to a more recent one of the club (do we have any?)
 [X] I would mirror the blurb for F1Tenth for the IAC blurb. "Developing software...." 
 [ ] I would add links for previous projects to previous project sites. This hopefully is the simplest way to preserve old content. 
-[ ] I would be careful about using past tense for past projects. I think it's also fine to add another sentence to the description (esp if we won an award like IARC)
+[X] I would be careful about using past tense for past projects. I think it's also fine to add another sentence to the description (esp if we won an award like IARC)
 [X] I would depracate projects that are no longer relevant (Artbot and Sailbot)
 [X] I would flip RR and IAC @ CES on the MIT-PITT-RW page to make them chronological order. 
 [X] Also, describe the race as "multi-agent passing competition"
