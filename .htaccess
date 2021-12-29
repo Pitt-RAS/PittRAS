@@ -1,6 +1,7 @@
 RewriteEngine On
 
 #https://gist.github.com/ScottPhillips/1721489
+https://github.com/phanan/htaccess
 
 # first rule
 # the following checks for a given URL (such as /file) and sees if /file.html exists. if it does exist, then it applies the rewrite rule which will redirect to /file.html
@@ -12,4 +13,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
 
-RedirectMatch 301 /index.html https://www.pittras.org
+
+# redirect html pages to the root domain
+RewriteBase /
+RewriteRule ^index\.html$ / [NC,R,L]
