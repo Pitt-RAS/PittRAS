@@ -13,7 +13,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
 
-
-# redirect html pages to the root domain
-RewriteBase /
-RewriteRule ^index\.html$ / [NC,R,L]
