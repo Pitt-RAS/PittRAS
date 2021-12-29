@@ -19,7 +19,7 @@
 [X] Fix padding on mobile for projects page.
 [ ] Consider redoing setup on mobile for project page. images are way too small now. but fix general website formatting first before you do this
 [X] Consider redoing setup on mobile for sponsors page. logos are way too small now. but fix general website formatting first before you do this
-[ ] complete project subpages
+[X] complete project subpages
 [X] fix the look on a horizontal screen. it was way too stretched out and the font is way too big
         try playing around with the font size and inner class width. ideally you want the vertical monitor look to match
         the horizontal monitor look but without stretching it so wide that it just looks plain and boring. use
