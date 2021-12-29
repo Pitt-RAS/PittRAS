@@ -5,9 +5,9 @@ RewriteEngine On
 # HOWEVER, the URL will not include the .html even though it has been redirected to it. 
 # example: pittras.org/mprw displays pittras.org/mprw.html file but the URL will remain as pittras.org/mprw
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
 # second rule
 # this redirects /file.html requests to /file
