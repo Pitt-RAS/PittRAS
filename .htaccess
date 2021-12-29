@@ -1,6 +1,15 @@
-#remove html file extension https://example.com/page.html
-# to https://example.com/page
 RewriteEngine On
+
+# first rule
+# the following checks for a given URL (such as /file) and sees if /file.html exists. if it does exist, then it applies the rewrite rule which will redirect to /file.html
+# HOWEVER, the URL will not include the .html even though it has been redirected to it. 
+# example: pittras.org/mprw displays pittras.org/mprw.html file but the URL will remain as pittras.org/mprw
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+
+# second rule
+# this redirects /file.html requests to /file
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NE,L,R]
