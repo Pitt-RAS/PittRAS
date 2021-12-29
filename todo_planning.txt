@@ -1,6 +1,8 @@
 // TO DO LIST //
 [X] Add pitt ras logo as the symbol for the Website
 [ ] Post to original URL (update CNAME)
+[ ] Fix URL on old website that points to the new website 
+[ ] Spell check all of the pages using VS code.
 [ ] Update URL on the readme file
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
 [X] Check the size of the old repo and see if it is feasible to include in the old repo in the new repo as a website archive.
