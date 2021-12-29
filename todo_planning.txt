@@ -1,12 +1,12 @@
 // TO DO LIST //
 [X] Add pitt ras logo as the symbol for the Website
-[ ] Post to original URL (update CNAME)
-[ ] Fix URL on old website that points to the new website 
+[X] Post to original URL (update CNAME)
+[X] Fix URL on old website that points to the new website 
 [ ] Spell check all of the pages using VS code.
-[ ] Update URL on the readme file
+[X] Update URL on the readme file
 [ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
 [X] Check the size of the old repo and see if it is feasible to include in the old repo in the new repo as a website archive.
-[ ] Include previous websites on about us page.
+[X] Include previous websites on about us page.
         I'm not really sure how the old website works because it doesnt just seem to be static html. So it might not work how we intend. 
         In this case, convert old website to normal github hosts and then just linnk that.
 [X] Complete contact page
@@ -29,7 +29,7 @@
 [X] Fix the sponsors sizing in the footer, do stacked as saba mentioned. FIX THE MOBILITAS LOGO 
 [X] Fix the padding on mobile for the sponsor logo stack 
 [X] Complete workshops page
-[ ] Add executive board and project leads to about us page? or just executive board?
+[ ] Add executive board and project leads to about us page? or just executive board? OMITTING
 [X] Complete landing page layout
 [ ] Add google analytics
 [ ] Remove .html extension, when navigating through the site
