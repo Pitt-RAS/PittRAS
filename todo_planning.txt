@@ -4,7 +4,7 @@
 [X] Fix URL on old website that points to the new website 
 [ ] Spell check all of the pages using VS code.
 [X] Update URL on the readme file
-[ ] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
+[X] Update readme file on how to update the Website (the links on the local vs published copy will definitely have to be mentioned.)
 [X] Check the size of the old repo and see if it is feasible to include in the old repo in the new repo as a website archive.
 [X] Include previous websites on about us page.
         I'm not really sure how the old website works because it doesnt just seem to be static html. So it might not work how we intend. 
@@ -32,7 +32,7 @@
 [ ] Add executive board and project leads to about us page? or just executive board? OMITTING
 [X] Complete landing page layout
 [ ] Add google analytics
-[ ] Remove .html extension, when navigating through the site
+[X] Remove .html extension, when navigating through the site
         A link like https://pittras.org/PittRAS/subpages/indy works though (without the html), but if you navigate through the menu, it will add it
         See https://www.geeksforgeeks.org/how-to-remove-html-extension-from-url-of-a-static-page/
 
@@ -48,11 +48,11 @@
 [X] MIT-PITT-RW page instead of autonmous racing page. url should be MIT-PITT-RW, probably do lowercase.
 [X] Add section to about us for media coverage (if its out of place move it to seperate page)
 [X] Pitt CES press release somewhere. 
-[ ] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? like lidar stuff? our car driving? any other kind of videos?
+[ ] ADD HIGHLIGHTS SECTION ON THE HOME PAGE??? like lidar stuff? our car driving? any other kind of videos? OMITTING
 [X] instead of saying like we've been wokring on somehting big.... why not combine that into the videO??? think that will look way cleaner.
 [X] Add Skydio as a sponsor
 [X] fix padding for the mit-pitt-rw page on mobile
-[ ] go thru and update the og:url in the metadata
+[X] go thru and update the og:url in the metadata
 [ ] add rover to the projects OMITTED
 
 Nayana Edit's
@@ -61,7 +61,7 @@ Nayana Edit's
 [X] I would maybe add build your network and collaborate with students across multiple universities to the benefits section. Thoughts?
 [ ] About us Page: I would swap out the picture to a more recent one of the club (do we have any?)
 [X] I would mirror the blurb for F1Tenth for the IAC blurb. "Developing software...." 
-[ ] I would add links for previous projects to previous project sites. This hopefully is the simplest way to preserve old content. 
+[X] I would add links for previous projects to previous project sites. This hopefully is the simplest way to preserve old content. 
 [X] I would be careful about using past tense for past projects. I think it's also fine to add another sentence to the description (esp if we won an award like IARC)
 [X] I would depracate projects that are no longer relevant (Artbot and Sailbot)
 [X] I would flip RR and IAC @ CES on the MIT-PITT-RW page to make them chronological order. 
