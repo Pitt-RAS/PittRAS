@@ -2840,7 +2840,7 @@ video {
 			margin: 0 auto;
 		}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1500px) {
 
 				.wrapper > .inner {
 					width: 90%;
