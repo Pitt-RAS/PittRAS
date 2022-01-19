@@ -4578,6 +4578,8 @@ video {
 /* -------------------- */
 /* workshop main page */
 /* -------------------- */
+
+/* Note that this is also used in one spot on the project page.*/
 .workshops{
     width: 50%;
     margin-left:auto;
