@@ -1,12 +1,14 @@
 ## University of Pittsburgh's Robotics and Automation Society's Website
-Access it at https://www.pittras.org
+Access it at https://www.pittras.org. This is a static HTML website and can be edited on any computer that access to an text editor - no setup or environment required. See section below for how to navigate the website locally.
 
 Find deployment status here: https://github.com/Pitt-RAS/PittRAS/deployments/activity_log?environment=github-pages
 
 ## Navigating through the website locally
-Every site page has a file extension of .html. You can see this by looking through the repo. However, you might notice when navigating through the website on a browser, you do not see the .html extension. This is because the .htaccess file redirects any file (/filename) that doesn't resolve to /filename.html. So, when published all the links will work properly with the help of .htaccess. 
+Every site page has a file extension of .html. You can see this by looking through the repo. However, you might notice when navigating through the website on a browser, you do not see the .html extension. This is because the .htaccess file redirects any file (/filename) that doesn't resolve to /filename.html. So, when published all the links will work properly with the help of htaccess. 
 
-Locally however, the links will remain broken making it kind of difficult to navigate through the site when working on a local copy. A simple solution would just be to append .html to broken file path in the browser. Just something to be aware of when working on the website locally. 
+Locally however, the links will remain broken making it kind of difficult to navigate through the site when working on a local copy. A simple solution would just be to append .html to broken file path in the browser (but this might be different for say the projects file, which is both a directory and an html file). This also depends on the browser being used because some browsers are smart and try to autocomplete the link. Just something to be aware of when working on the website locally. 
+
+Lastly, the contact page takes a bit to load locally. This is because the mailchimp form is trying to load its thing but it's unable to. 
 
 ## Pre-publishing checklist
 1) Ensure that no .html extensions are included in href's. **Note that if it's a link to an external webpage (base url is not wwww.pittras.org), then do not remove the .html extension. It is also okay to leave elements.html any other page or template pages that is not public (no hyperlink leads to them) as is.**
