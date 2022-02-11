@@ -3,6 +3,12 @@ Access it at https://www.pittras.org
 
 Find deployment status here: https://github.com/Pitt-RAS/PittRAS/deployments/activity_log?environment=github-pages
 
+## Viewing your website changes locally
+Two options:
+1) You can past the file path to any html file in the browser and it will open. Alternatively, on windows at least, you can just double click the html file and it will open in the browser automatically. Or you can do right click and then open with > your choice of browser. 
+
+2) If you are a VScode user, add the extension called "Live Server". Once it's installed, close and reopen VScode. If you go to any html file, you will now see a "Go Live" button in the bottom right corner. You can click that to preview the current html file you are on.
+
 ## Navigating through the website locally
 Every site page has a file extension of .html. You can see this by looking through the repo. However, you might notice when navigating through the website on a browser, you do not see the .html extension. This is because the .htaccess file redirects any file (/filename) that doesn't resolve to /filename.html. So, when published all the links will work properly with the help of .htaccess. 
 
