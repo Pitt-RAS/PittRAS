@@ -17,14 +17,54 @@
             document.addEventListener("DOMContentLoaded", function()
             {
                 var video = document.getElementById("backgroundvid");
+
+                // all the commented out code is an attempt to get an autoscroll after the video concludes. had no luck with it :(
+                // hours wasted: ~2h
+
+                // video.addEventListener("ended", function() {
+                //     // window.location.href = '#one';
+                //     // window.location.assign("#one");
+                //     window.location.hash = "#one";
+                //     var hash = window.location.hash;
+                //     // var elem = document.getElementById(hash.substring(1));
+                //     var elem = document.getElementById('banner');
+                    
+                //     elem.scrollIntoView();
+                    
+                // });
+
                 video.addEventListener("canplay", function() {
                 setTimeout(function() {
                     video.play();
                     video.setAttribute('autoplay',true);
                     }, 3000);
+                    // var element_to_scroll_to = document.getElementById('banner');
+                    // element_to_scroll_to.scrollIntoView();
                 });
+                // window.location.href = '#one';
+                // window.location.assign("#one");
+                // window.location.hash = "#one";
 
+                // var element_to_scroll_to = document.getElementById('banner');
+                // element_to_scroll_to.scrollIntoView();
+                
+                
             });
+
+                // var video = document.getElementById("backgroundvid");
+
+                // video.addEventListener("ended", function() {
+                //     // window.location.href = '#one';
+                //     // window.location.assign("#one");
+                //     window.location.hash = "#one";
+                //     var hash = window.location.hash;
+                //     // var elem = document.getElementById(hash.substring(1));
+                //     var elem = document.getElementById('banner');
+                    
+                //     elem.scrollIntoView();
+                    
+                // });
+
 
         </script>
 
@@ -89,65 +129,34 @@
 
                         <section id="one" class="wrapper style5">
                             <header class= "major" style="text-align:center; margin-bottom: 1em">
-                                <h2 >One team. Three monumental races.</h2>
+                                <h2 >One team. Two monumental races.</h2>
                             </header>
-                            <div class="row" style="margin-left:auto; margin-right:auto; width:90%; height:auto; text-align: center;">
-                                <div id="race-overview-left" class="col-4 col-12-medium" style="display:flex; flex-direction:column;">
+                            <div class="row" style="margin-left:auto; margin-right:auto; width:80%; height:auto; text-align: center;">
+                                <div id="race-overview-left" class="col-6 col-12-medium" style="display:flex; flex-direction:column;">
                                    <h2>Indy Autonomous Challenge @ IMS</h2>
                                    <img class="image fit"  src="images/indyrendering.jpg">
                                    <h5>Race day: October 23<sup>rd</sup>, 2021</h5>
                                    <p>Single-agent race. Dallara AV-21.<br>Speeds of up to 180mph.<br>Watch the full broadcast <a href="https://www.indyautonomouschallenge.com/full-broadcast-of-indy-autonomous-challenge-powered-by-cisco-event">here.</a></p>
                                 </div>
 
-                                <div id="race-overview-mid" class="col-4 col-12-medium" style="display:flex; flex-direction:column;">
+                                <div id="race-overview-mid" class="col-6 col-12-medium" style="display:flex; flex-direction:column;">
                                     <h2>Autonomous Challenge @ CES 2022</h2>
                                     <img class="image fit"  src="images/indyrendering2.jpg">
                                     <h5>Race day: January 7<sup>th</sup>,2021</h5>
                                     <p>Multi-agent passing competition. Dallara AV-21.<br>Speeds of up to 180mph.<br>Watch the full broadcast <a href="https://www.indyautonomouschallenge.com/autonomous-challenge-ces-full-broadcast">here.</a></p>
                                 </div>
 
-                                <div id="race-overview-right" class="col-4 col-12-medium" style="display:flex; flex-direction:column; ">
+                                <!-- <div id="race-overview-right" class="col-4 col-12-medium" style="display:flex; flex-direction:column; ">
                                     <h2>Roborace</h2>
                                     <img class="image fit"  src="images/roborace_3cars.jpg">
                                     <h5>Race day: Summer, 2022</h5>
                                     <p>Multi-agent race. DevBot 2.0.<br>Speeds of up to 145mph.<br>Learn more <a href="https://roborace.com/">here.</a></p>
-                                </div>
+                                </div> -->
                             </div>
-
-                            <!-- <div class="row" style="margin:0 auto; width:90%; height:auto; text-align: center;">
-                                <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle;align-content: center; justify-content: center; width: fit-content;">
-                                    <h2 style="text-align: right;">We are </h2>
-                                </div>
-                                <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle; align-content:center; justify-content: center; ">
-                                    <img class="image fit" src="images/team logo.jpg" alt="" />
-                                </div>
-                            </div> -->
-
-                            <!-- <div class="inner">
-                            <div class="row" style="margin-left:auto; margin-right:auto; width:90%; height:auto;">
-                                <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle;align-content: center; justify-content: center; width: fit-content;">
-                                    <h2 style="text-align: left;">We are </h2>
-                                </div>
-                                <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle; align-content:center; justify-content: center; width:fit-content ">
-                                    <img class="image fit" src="images/team logo.jpg" alt="" />
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- <div class="inner"> -->
-                            <!-- <div class="inner"><hr></div> -->
-
-                            <!-- <div class="row" style="margin-left:auto; margin-right:auto; width:90%; height:auto;">
-                                <div class="col-4 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle;align-content: center; justify-content: center; height:fit-content ">
-                                    <h2 style="text-align: center;">We are </h2>
-                                </div>
-                                <div class="col-4 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle;align-content: center; justify-content: center; height:fit-content ">
-                                </div>
-                                <div class="col-4 col-12-medium" style="display:flex; flex-direction:column;vertical-align: middle; align-content:center; justify-content: center; height:fit-content ">
-                                </div>
-                            </div> -->
 
                             <div class="inner" style="text-align:center;" >
+                                <!-- <img style="height:100px; width: auto" src="images/vertical-ellipsis-menu-with-three-dots-expansion-vector-25729186.jpg"> -->
+                                <!-- <br> -->
                                 <img class="" style="width: 80%; height:auto" src="images/team logo.jpg" alt="" />
                                 <br><br>
                                 <h4>
@@ -156,16 +165,6 @@
                                 </h4>
                             </div>
                             <div style="margin-left:auto; margin-right:auto; width:90%; height:auto; text-align: center;">
-
-
-                                <!-- <br> -->
-                                <!-- <div class="box alt">
-                                    <div class="row gtr-50 gtr-uniform">
-                                        <div class="col-4"><span class="image fit"><img src="images/team_and_car.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/front_pic_of_car.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="images/ourcar.jpg" alt="" /></span></div>
-                                    </div>
-                                </div> -->
 
                             </div>
 
@@ -180,9 +179,7 @@
                                 </div>
                             </div>
 
-                            <!-- <div style="margin-left:auto; margin-right:auto; width:77%; height:auto; text-align: center;">
-                                <hr>
-                            </div> -->
+
 
 
                             <div class="row" style="margin-left:auto; margin-right:auto; width:80%; height:auto; text-align: center;">
@@ -213,8 +210,7 @@
                                 <h4>Autonomous Challenge @ CES 2022 </h4>
                                 <p>The Autonomous Challenge at CES comes on the heels of the Indy Autonomous Challenge. Moving closer to head-to-head multi-agent racing, a head-to-head passing competition was held Las Vegas Motor Speedway during CES 2022. This competition uses the same Dallara AV-21 from the original challenge.</p>
 
-                                <h4>Roborace</h4>
-                                <p>Roborace is the world’s first extreme competition of teams developing self-driving AI for autonomous, electric vehicles. Started in 2016, Roborace is currently in Season Beta and recently introduced the Roborace Metaverse, a mixed reality world designed to challenge all participating teams. </p>
+                                
                                 <hr />
 
                                 <h3>Team Overview</h3>
