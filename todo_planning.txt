@@ -4,8 +4,10 @@
 
 [ ] Find any media that is over 100kb and shrink it
 [X] On a new commit, move elements.html link out from all pages.
-[ ] Archive robotics design projects and replace with robot arm.
-[ ] Feature joshs project on robotics design projects? 
+[X] Archive robotics design projects and replace with robot arm.
+[ ] Finish up josh project feature on robotics design projects
+[X] Update RAS aerial with pictures
+
 
 
 
