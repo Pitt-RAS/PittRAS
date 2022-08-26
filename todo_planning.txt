@@ -3,7 +3,7 @@
 // AFTER INITIAL LAUNCH
 
 [ ] Find any media that is over 100kb and shrink it
-[ ] On a new commit, move elements.html link out from all pages.
+[X] On a new commit, move elements.html link out from all pages.
 
 
 
