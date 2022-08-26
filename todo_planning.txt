@@ -1,4 +1,20 @@
 // TO DO LIST //
+
+// AFTER INITIAL LAUNCH
+
+[ ] Find any media that is over 100kb and shrink it
+[ ] On a new commit, move elements.html link out from all pages.
+
+
+
+
+
+
+
+
+
+// FOR INITIAL LAUNCH //
+
 [X] Add pitt ras logo as the symbol for the Website
 [X] Post to original URL (update CNAME)
 [X] Fix URL on old website that points to the new website 

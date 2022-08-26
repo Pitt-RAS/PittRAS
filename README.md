@@ -1,7 +1,9 @@
-## University of Pittsburgh's Robotics and Automation Society's Website
+# University of Pittsburgh's Robotics and Automation Society's Website
 Access it at https://www.pittras.org. This is a static HTML website and can be edited on any computer that has access to an text editor - no setup or environment required. See section below for how to navigate the website locally.
 
 Find deployment status here: https://github.com/Pitt-RAS/PittRAS/deployments/activity_log?environment=github-pages
+
+# Making Modifications to the Website
 
 ## Viewing your website changes locally
 Two options:
@@ -17,5 +19,24 @@ Locally however, the links will remain broken making it kind of difficult to nav
 Lastly, the contact page takes a bit to load locally. This is because the mailchimp form is trying to load its thing but it's unable to. 
 
 ## Pre-publishing checklist
-1) Ensure that no .html extensions are included in href's. **Note that if it's a link to an external webpage (base url is not wwww.pittras.org), then do not remove the .html extension. It is also okay to leave elements.html and any other page or template pages that is not public (no hyperlink leads to them) as is.**
+1) Ensure that no `.html` extensions are included in href's. **Note that if it's a link to an external webpage (base url is not wwww.pittras.org), then do not remove the `.html` extension. It is also okay to leave `elements.html` and any other page or template pages that is not public (no hyperlink leads to them) as is.**
 2) Spell check any modifications. Use VS code extension called "Code Spell Checker" for this.
+
+## Post-publishing checklist
+1) It's wise to check website performance on the pages that were modified using tools such as https://tools.pingdom.com/, https://gtmetrix.com/ (recommended), and https://www.webpagetest.org/ . Make sure any added content doesn't significantly impact load times and performance. 
+2) Additionally, a script has been provided in `scripts/FileSizeScanner` that will flag any files that's over a certain size. See the README.md in `scripts/FileSizeScanner` for how it works. 
+
+## Using the maintenance page
+Only use this method when absolutely necessary. If only static HTML updates are needed, do your development on a branch other than main and then merge into main when finished. The use of the maintenance page is only for making modifications to the website where the changes cannot be tested on locally (requires the website being live). This means that development will have to be done on the main branch. Unfortunately, it doesn't seem like github pages supports hosting multiple branches so this will have to do for now. 
+
+How it works:
+1) The website will load the maintenance page instead of the original content of the website.
+2) There is an invisible button in the bottom left corner of the webpage (might need to scroll down to get to it). This button will take you to the original content of the website where you can carry out testing as needed. Note that some hyperlinks might be broken (for obvious reasons) so it is recommended to test hyperlinks locally (see navigating trough the website locally section) and only use this method when testing performance (like website load times).
+
+Steps:
+1) Rename `index.html` to `indexbackup.html` (use the exact filename)
+2) Rename `maintenance.html` to `index.html` (use the exact filename)
+3) Commit and push changes to main
+4) Update and test the website as you please
+5) When finished with all the changes, first revert `index.html` to `maintenance.html` and then revert `indexbackup.html` to `index.html`
+
