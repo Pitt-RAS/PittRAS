@@ -9,6 +9,7 @@
 [X] Update RAS aerial with pictures
 [ ] Double check the structure of the project pages, make sure they have a how to join that is somewhere near the top. I think F1Tenth is a good example.
 [ ] Organize photos
+[ ] Come up with a better name for robot-arms and update it everywhere including folder names
 
 
 
