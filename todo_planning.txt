@@ -2,9 +2,15 @@
 
 // AFTER INITIAL LAUNCH
 
-[ ] Find any media that is over 100kb and shrink it
-[ ] On a new commit, move elements.html link out from all pages.
-
+[O] Find any media that is over 100kb and shrink it (rule of thumb is 3mb per page)
+[X] On a new commit, move elements.html link out from all pages.
+[X] Archive robotics design projects and replace with robot arm.
+[X] Finish up josh project feature on robotics design projects
+[X] Update RAS aerial with pictures
+[X] Double check the structure of the project pages, make sure they have a how to join that is somewhere near the top. I think F1Tenth is a good example.
+[X] Organize photos
+[O] Come up with a better name for robot-arms and update it everywhere including folder names 
+    (I like armbot, might pivot to it in future but keeping robot arms for now cause its easy to understand and clear)
 
 
 

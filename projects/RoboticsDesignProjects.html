@@ -7,7 +7,7 @@
 
 <html>
 	<head>
-		<title>Motion Control | PittRAS</title>
+		<title>Robotics Design Projects | PittRAS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -55,41 +55,68 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Motion Control</h2>
-							<p>A Dive into robot motion control theory and application</p>
+							<h2>Robotics Design Projects</h2>
+							<p>Building the robotics foundation</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-                                <h2>Overview</h2>
-                                <p>Many robotics projects involve controlling a car-like robot to accomplish some task. Examples include our Micromouse, 
-                                    Line Follower, and Sumo projects.</p>
-                                <p>While each robot has different characteristics and is destined to accomplish a different goal, one thing is the same. They all have wheels. 
-                                    They all need motion control.</p>
-                                <p>Often times in computer science, we find that many projects have the need to solve a similar problem, yet each project has been developing
-                                     its own solution. This indicates duplicated or “wasted” effort, because the projects could be sharing code where their tasks overlap.</p>
-                                <p>The goal of the Motion Control project is to study control theory surrounding car-like robots, to identify common elements and concepts surrounding these robots, 
-                                    and then to develop a practically useful library or “toolkit” for a potentially large audience. We want to develop a robust and easy to use strategy for getting
-                                     a car-like robot up and running, so that the developer can quickly and effectively move past the task of motion control and continue on to solving the larger
-                                      high-level problem (such as following a line or solving a maze).</p>
-                                <p>
-                                    This project involves a fairly wide scope of skills and knowledge:
-                                    <ul>
-                                        <li>C++ programming, compilation, libraries</li>
-                                        <li>Version control (git)</li>
-                                        <li>PID, feed-forward, and self-tuning control theory</li>
-                                        <li>Adaptability to feedback from unknown sources</li>
-                                        <li>Physics surrounding linear and rotational motion</li>
-                                        <li>Mechanical and electronic design</li>
-                                        <li>Use of diverse computer systems (Arduino, Raspberry Pi, UNIX, Windows...)</li>
-                                    </ul>
-                                </p>
-                                <p>As a proof of concept, we would like to design three physically and electronically diverse robots and then load the same program onto each one,
-                                     demonstrating how our project might adapt to different robots. Above all, we’re here to learn.</p>
-                            
-                                
 
-							</div>
-						</section>
+                                <h2>Overview</h2>
+                                <p>
+                                    Robotics design projects was established to allow for mini, self-driven projects. Students could pick from a few pre-selected projects, but groups were
+                                    are allowed to propose a topic as well.
+                                </p>
+                                <p>
+                                    The total project length will be 6 weeks long with the goal being to build a strong foundation in robotics and a fun, cool robot. This project was introduced
+                                    in the spring semester of 2022 and ran for 1 semester.
+                                </p>
+                                <p>
+                                    The robotics design projects aimed to bring together 2-3 students per project in order to facilitate communication and knowledge share.
+                                    Each group implemented aspects of robotics such as software, electronics, project management, and more. 
+                                </p>
+
+                                <div class="inner">
+                                    <img style="display:block; margin-left:auto; margin-right:auto; width: 30%; height:auto;" src="../images/projects/design-projects/robotics_design_projects-flipped.jpg">
+                                </div>
+
+                                <hr>
+
+                                <h2>Featured Project</h2>
+                                <h4>Haptic Vision Display by Joshua Summers</h4>
+                                <p>
+                                    Haptic Vision Display, also called TouchSense is an 8x8 grid of solenoids, with each solenoid corresponding to a certain spot on a 
+                                    depth-sensing camera. When a close-by object appears in front of the camera, the solenoids in that region will go off and press into 
+                                    the user's back, letting them know where the object is. This is meant to aid people who are visually impaired.
+                                </p>
+                                <p> Due to interest in continued work on the project, it was converted into a Summer Undergraduate Research Internship which is hosted by the Swanson School 
+                                    of Engineering. This allowed for additional funding in the development of a fully functioning prototype.
+                                </p>
+                                <h4>Technologies Used</h4>
+                                <p>The final product solenoids, N-type MOSFETS, diodes, 8-bit shift registers (74HC595), and PCBs (printed circuit boards) for the haptic feedback. 
+                                    The system uses a Raspberry Pi 3B+ as the brain and in order to get the depth information, an Intel Real Sense D435 Camera.
+                                </p>
+                                <h4>Gallery</h4>
+                                <div class="box alt">
+                                    <div class="row gtr-50 gtr-uniform">
+                                        <div class="col-4"><span class="image fit"><img src="../images/projects/design-projects/joshsolenoids-resized-3.png" alt="" /></span></div>
+                                        <div class="col-4"><span class="image fit"><img src="../images/projects/design-projects/joshPCBs-resized.png" alt="" /></span></div>
+                                        <div class="col-4"><span class="image fit"><img src="../images/projects/design-projects/joshwires-resized.png" alt="" /></span></div>
+                                    </div>
+                                </div>
+
+                                <hr>
+    
+                                <h2>Additional Projects</h2>
+                                <div class="box alt">
+                                    <div class="row gtr-50 gtr-uniform">
+                                        <div class="col-6"><span class="image fit"><img src="../images/projects/design-projects/depth.png" alt="" /></span></div>
+                                        <div class="col-6"><span class="image fit"><img src="../images/projects/design-projects/3dprint.png" alt="" /></span></div>
+                                        <div class="col-6"><span class="image fit"><img src="../images/projects/design-projects/breadboard.png" alt="" /></span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
 					</article>
 
 				<!-- Footer -->

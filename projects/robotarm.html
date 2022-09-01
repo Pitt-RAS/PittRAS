@@ -7,7 +7,7 @@
 
 <html>
 	<head>
-		<title>Motion Control | PittRAS</title>
+		<title>Robot Arms | PittRAS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -55,37 +55,64 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Motion Control</h2>
-							<p>A Dive into robot motion control theory and application</p>
+							<h2>Robot Arms</h2>
+							<p>A great entry into the world of industrial automation.</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
                                 <h2>Overview</h2>
-                                <p>Many robotics projects involve controlling a car-like robot to accomplish some task. Examples include our Micromouse, 
-                                    Line Follower, and Sumo projects.</p>
-                                <p>While each robot has different characteristics and is destined to accomplish a different goal, one thing is the same. They all have wheels. 
-                                    They all need motion control.</p>
-                                <p>Often times in computer science, we find that many projects have the need to solve a similar problem, yet each project has been developing
-                                     its own solution. This indicates duplicated or “wasted” effort, because the projects could be sharing code where their tasks overlap.</p>
-                                <p>The goal of the Motion Control project is to study control theory surrounding car-like robots, to identify common elements and concepts surrounding these robots, 
-                                    and then to develop a practically useful library or “toolkit” for a potentially large audience. We want to develop a robust and easy to use strategy for getting
-                                     a car-like robot up and running, so that the developer can quickly and effectively move past the task of motion control and continue on to solving the larger
-                                      high-level problem (such as following a line or solving a maze).</p>
                                 <p>
-                                    This project involves a fairly wide scope of skills and knowledge:
-                                    <ul>
-                                        <li>C++ programming, compilation, libraries</li>
-                                        <li>Version control (git)</li>
-                                        <li>PID, feed-forward, and self-tuning control theory</li>
-                                        <li>Adaptability to feedback from unknown sources</li>
-                                        <li>Physics surrounding linear and rotational motion</li>
-                                        <li>Mechanical and electronic design</li>
-                                        <li>Use of diverse computer systems (Arduino, Raspberry Pi, UNIX, Windows...)</li>
-                                    </ul>
+                                    The goal of this project is to introduce the world of robotics and prototyping.
+                                    Our system will have three degrees of freedom - two axes from our double jointed arm with a gripper attachment
+                                    and the third axis from the robot being installed on a linear rail.
                                 </p>
-                                <p>As a proof of concept, we would like to design three physically and electronically diverse robots and then load the same program onto each one,
-                                     demonstrating how our project might adapt to different robots. Above all, we’re here to learn.</p>
-                            
+                                <p>
+                                    The full robot assembly is designed with school license CAD software and printed and tested with our
+                                    available 3D printers. The hardware takes care of power conversion and handles distribution to many motors, sensors, and microcontrollers.
+                                </p>
+                                <p> 
+                                    The software runs on an Arduino Uno and implements the robot's inverse kinematics model and handles sensor communication. 
+                                    The goal is to develop this project over the semester to include more sensing and control to achieve a robotic arm that 
+                                    can translate to any position you command that's within reach
+                                </p>
+
+                                <h2>How to Join</h2>
+                                <p>
+                                    Just message us! No experience is necessary to join and students of all backgrounds are welcome. This includes (but is not limited to) 
+                                    computer engineering, mechanical engineering, computer science, electrical engineering. See our <a href="../contact">contact page</a> 
+                                    for how to reach us.
+                                </p>
+
+                                <h2>Gallery</h2>
+                                <p>*A higher resolution picture of the schematics is available on our <a href="https://github.com/Pitt-RAS/robotic-arm">Github</a>.</p>
+                                <div class="row">
+                                    <div class="col-6 col-12-medium" style= "display:flex; flex-direction:column;vertical-align: top; align-content: top; justify-content: top;">
+                                        <span class="image fit"><img src="../images/projects/robot-arm/robot-arm-rescaled.png" alt="" /></span>
+                                    </div>
+
+                                    <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: top; align-content: top; justify-content: top;">
+                                        <span class="image fit"><img src="../images/projects/robot-arm/robot-arm-2.png" alt="" /></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: center; align-content: center; justify-content: center; margin-top: -1em;">
+                                        <span class="image fit"><img src="../images/projects/robot-arm/robot-arm-cad-1.png" alt="" /></span>
+                                    </div>
+
+                                    <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: center; align-content: center; justify-content: center; margin-top: -1em;">
+                                        <span class="image fit"><img src="../images/projects/robot-arm/robot-arm-cad-2.png" alt="" /></span>
+                                    </div>
+
+                                    <div class="col-12 col-12-medium" style="display:flex; flex-direction:column;vertical-align: center; align-content: center; justify-content: center; margin-top: -1em;">
+                                        <span class="image fit"><img src="../images/projects/robot-arm/RobotArm_v3_schematics-resized.png" alt="" /></span>
+                                    </div>
+
+                                    <div class="col-6 col-12-medium" style="display:flex; flex-direction:column;vertical-align: center; align-content: center; justify-content: center; margin-top: -1em;">
+                                        <span class="image fit"><img src="../images/projects/robot-arm/robot-arm-cad-3.png" alt="" /></span>
+                                    </div>
+                                </div>
+
+                                
                                 
 
 							</div>
