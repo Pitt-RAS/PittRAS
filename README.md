@@ -23,7 +23,7 @@ Locally however, the links will remain broken making it kind of difficult to nav
 Lastly, the contact page takes a bit to load locally. This is because the mailchimp form is trying to load its thing but it's unable to. 
 
 ## Pre-publishing checklist
-1) Ensure that no `.html` extensions are included in href's. **Note that if it's a link to an external webpage (base url is not wwww.pittras.org), then do not remove the `.html` extension. It is also okay to leave `elements.html` and any other page or template pages that is not public (no hyperlink leads to them) as is.**
+1) Ensure that no `.html` extensions are included in href's. **Note that if it's a link to an external webpage (base url is not wwww.raspitt.org), then do not remove the `.html` extension. It is also okay to leave `elements.html` and any other page or template pages that is not public (no hyperlink leads to them) as is.**
 2) Spell check any modifications. Use VS code extension called "Code Spell Checker" for this.
 3) Test on commonly used web browsers. This typically includes Chrome, Safari, and Firefox. When testing, be sure to test resizing the window to ensure things scale properly
 and to use preview the webpage on mobile as well.

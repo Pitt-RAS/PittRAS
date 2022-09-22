@@ -21,7 +21,7 @@
 
 // FOR INITIAL LAUNCH //
 
-[X] Add pitt ras logo as the symbol for the Website
+[X] Add ras pitt logo as the symbol for the Website
 [X] Post to original URL (update CNAME)
 [X] Fix URL on old website that points to the new website 
 [X] Spell check all of the pages using VS code.
