@@ -6,7 +6,7 @@ https://github.com/phanan/htaccess
 # first rule
 # the following checks for a given URL (such as /file) and sees if /file.html exists. if it does exist, then it applies the rewrite rule which will redirect to /file.html
 # HOWEVER, the URL will not include the .html even though it has been redirected to it. 
-# example: pittras.org/mprw displays pittras.org/bleh.html file but the URL will remain as pittras.org/bleh
+# example: raspitt.org/mprw displays raspitt.org/bleh.html file but the URL will remain as raspitt.org/bleh
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
