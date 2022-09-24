@@ -1,7 +1,7 @@
 RewriteEngine On
 
 #https://gist.github.com/ScottPhillips/1721489
-https://github.com/phanan/htaccess
+# https://github.com/phanan/htaccess
 
 # first rule
 # the following checks for a given URL (such as /file) and sees if /file.html exists. if it does exist, then it applies the rewrite rule which will redirect to /file.html
