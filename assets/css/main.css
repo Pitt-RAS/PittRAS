@@ -4453,7 +4453,9 @@ video {
 
 
 #race-overview-left{ 
-    vertical-align: center;
+	display:flex; 
+	flex-direction:column;
+    vertical-align: top;
     padding-top:1em;
 }
 
@@ -4462,13 +4464,15 @@ video {
         padding-top:1em;
         align-self: flex-start;
         align-content: top; 
-        justify-content: center;
+        justify-content: top;
     }
 }
 
 #race-overview-mid{ 
-    vertical-align: center;
-    padding-top:4em
+	display:flex; 
+	flex-direction:column;
+    vertical-align: top;
+    padding-top:5em;
 }
 
 @media screen and (max-width: 1100px) {
@@ -4476,22 +4480,24 @@ video {
         padding-top:1em;
         align-self: flex-start;
         align-content: top; 
-        justify-content: center;
+        justify-content: top;
     }
 }
 
-/* #race-overview-right{ 
-    padding-top:11em
+#race-overview-right{ 
+	display:flex; 
+	flex-direction:column;
+    padding-top:1em;
 }
 
 @media screen and (max-width: 1100px) {
     #race-overview-right{ 
         padding-top:1em;
         vertical-align: top; 
-        align-content: center; 
-        justify-content: center;
+        align-content: top; 
+        justify-content: top;
     }
-} */
+}
 
 /* -------------------- */
 /* about-us page */
