@@ -11,7 +11,7 @@
 [X] Organize photos
 [O] Come up with a better name for robot-arms and update it everywhere including folder names 
     (I like armbot, might pivot to it in future but keeping robot arms for now cause its easy to understand and clear)
-
+[ ] mobilitas pnc, rti, ibm, rrai, cadence swanson
 
 
 

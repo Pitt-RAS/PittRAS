@@ -4111,7 +4111,7 @@ video {
 /* -------------------- */
 
 #mobi{
-    width:75%; 
+    width:100%; 
     height:auto;
     padding-bottom: 0em;
 }
@@ -4131,23 +4131,21 @@ video {
 }
 
 
-
-
-#oracle{
-    width: 80%; 
+#pnc{
+    width: 65%; 
     height:auto;
     padding-bottom: 0em;
 }
 
 @media screen and (max-width: 1280px) {
-    #oracle{ 
+    #pnc{ 
         width:92%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #oracle{ 
+    #pnc{ 
         width: 92%;
         padding-bottom: 0.1em;
     }
@@ -4155,7 +4153,8 @@ video {
 }
 
 #pitt{
-    width: 90%; 
+    width: 57%; 
+	margin-left: -50%;
     height:auto;
 }
 
@@ -4172,20 +4171,20 @@ video {
 }
 
 
-#pnc{
-    width: 65%; 
+#rrai{
+    width: 70%; 
     height:auto;
 }
 
 @media screen and (max-width: 1280px) {
-    #pnc{ 
+    #rrai{ 
         width: 65%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #pnc{ 
+    #rrai{ 
         width: 65%;
         padding-bottom: 1em;
     }
@@ -4193,80 +4192,80 @@ video {
 
 
 
-#argo{
-    width: 90%; 
+#cadence{
+    width: 55%; 
+	margin-left: -20%;
     height:auto;
 }
-
-
 @media screen and (max-width: 1380px) {
-    #argo{ 
+    #cadence{ 
         width: 90%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 1020px) {
-    #argo{ 
+    #cadence{ 
         width: 90%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #argo{ 
+    #cadence{ 
         width: 70%;
         padding-bottom: 1em;
     }
 }
 
 
-#iamrobotics{
-    width: 110%; 
+#rti{
+	margin-left: 30px;
+    width:65%; 
     height:auto;
 }
 
 @media screen and (max-width: 1380px) {
-    #iamrobotics{ 
+    #rti{ 
         width: 100%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 1020px) {
-    #iamrobotics{ 
+    #rti{ 
         width: 100%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #iamrobotics{ 
-        width: 80%;
+    #rti{ 
+        width: 85%;
         padding-bottom: 0.5em;
     }
 }
 
-#skydio{
-    width: 100%; 
+#ibm{
+    width: 65%; 
     height:auto;
 }
 
 @media screen and (max-width: 1380px) {
-    #skydio{ 
+    #ibm{ 
         width: 90%
     }
 }
 
 
 @media screen and (max-width: 1280px) {
-    #skydio{ 
+    #ibm{ 
         width: 90%
     }
 }
 
 @media screen and (max-width: 750px) {
-    #skydio{ 
+    #ibm{ 
         width: 60%
     }
 }
@@ -4306,7 +4305,7 @@ video {
     padding-top: 0em;
     margin-right: auto;
     margin-left: auto;
-    width: 63%
+    width: 80%
 }
 
 @media screen and (max-width: 1700px) {
