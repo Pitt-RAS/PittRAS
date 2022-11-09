@@ -4123,10 +4123,19 @@ video {
     }
 }
 
+@media screen and (max-width: 980px) {
+    #mobi{ 
+        width:90%;
+        padding-bottom: 1em;
+    }
+}
+
 @media screen and (max-width: 750px) {
     #mobi{ 
         width:100%;
         padding-bottom: 1em;
+		margin-left: auto;
+		margin-right:auto;
     }
 }
 
@@ -4137,17 +4146,18 @@ video {
     padding-bottom: 0em;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 980px) {
     #pnc{ 
-        width:92%;
-        padding-bottom: 0em;
+        width:55%;
+        padding-bottom: 1em;
     }
 }
 
 @media screen and (max-width: 750px) {
     #pnc{ 
-        width: 92%;
+        width: 70%;
         padding-bottom: 0.1em;
+		margin-top: -1em;
     }
 
 }
@@ -4160,20 +4170,28 @@ video {
 
 @media screen and (max-width: 1280px) {
     #pitt{ 
-        width: 80%
+        width: 65%
     }
 }
 
 @media screen and (max-width: 750px) {
     #pitt{ 
-        width: 90%
+        width: 55%;
+		margin-left: 0%;
+		margin-top: -1em;
     }
 }
-
 
 #rrai{
     width: 70%; 
     height:auto;
+}
+
+@media screen and (max-width: 1380px) {
+    #rrai{ 
+        width: 65%;
+        padding-bottom: 0em;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -4185,12 +4203,11 @@ video {
 
 @media screen and (max-width: 750px) {
     #rrai{ 
-        width: 65%;
+		padding-top: 0.6em;
+        width: 50%;
         padding-bottom: 1em;
     }
 }
-
-
 
 #cadence{
     width: 55%; 
@@ -4199,22 +4216,18 @@ video {
 }
 @media screen and (max-width: 1380px) {
     #cadence{ 
-        width: 90%;
-        padding-bottom: 0em;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    #cadence{ 
-        width: 90%;
+        width: 55%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
     #cadence{ 
-        width: 70%;
+        width: 45%;
+		margin-left: auto;
+		margin-right: auto;
         padding-bottom: 1em;
+		margin-top:-0.5em
     }
 }
 
@@ -4227,22 +4240,32 @@ video {
 
 @media screen and (max-width: 1380px) {
     #rti{ 
-        width: 100%;
+        width: 65%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 1020px) {
     #rti{ 
-        width: 100%;
+        width: 65%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #rti{ 
+        width: 50%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
     #rti{ 
-        width: 85%;
+        width: 90%;
         padding-bottom: 0.5em;
+		padding-left: 0;
+		margin-left: 0;
+		display: inline-block;
     }
 }
 
@@ -4253,20 +4276,22 @@ video {
 
 @media screen and (max-width: 1380px) {
     #ibm{ 
-        width: 90%
+        width: 65%
     }
 }
 
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1020px) {
     #ibm{ 
-        width: 90%
+        width: 65%;
+        padding-bottom: 0em;
     }
 }
+
 
 @media screen and (max-width: 750px) {
     #ibm{ 
-        width: 60%
+        width: 80%;
+		margin-left: -0.5em;
     }
 }
 
@@ -4277,6 +4302,56 @@ video {
     overflow-x: visible;
     overflow-y: visible;
     
+}
+
+.sponsor-layout{
+	display:block; 
+	align-content: center; 
+	justify-content: center; 
+	align-self: center;
+}
+
+.width-setting-50{
+	width:50%;
+}
+
+@media screen and (max-width: 750px) {
+    .width-setting-50{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 50%
+    }
+}
+
+
+
+.width-setting-15{
+	width:15%;
+}
+
+
+@media screen and (max-width: 750px) {
+    .width-setting-15{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 20%
+    }
+}
+
+
+.width-setting-70over3 {
+	width:23%;
+}
+
+@media screen and (max-width: 750px) {
+    .width-setting-70over3{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 50%
+    }
 }
 
 #sponsor-row-1{
@@ -4296,8 +4371,12 @@ video {
 
 @media screen and (max-width: 750px) {
     #sponsor-row-1{
-        margin-right: auto;
+		width: 100%;
+		display:block;
+		margin-right: auto;
         margin-left: auto;
+		text-align: center;
+
     }
 }
 
@@ -4305,19 +4384,26 @@ video {
     padding-top: 0em;
     margin-right: auto;
     margin-left: auto;
-    width: 80%
+    width: 80%;
 }
 
 @media screen and (max-width: 1700px) {
     #sponsor-row-2{ 
         padding-top: 0em;
-        width: 90%
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 750px) {
     #sponsor-row-2{ 
+		width: 100%;
         padding-top: 0em;
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right:auto
+		
+		
     }
 }
 
