@@ -4111,7 +4111,7 @@ video {
 /* -------------------- */
 
 #mobi{
-    width:75%; 
+    width:100%; 
     height:auto;
     padding-bottom: 0em;
 }
@@ -4120,6 +4120,13 @@ video {
     #mobi{ 
         width:100%;
         padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #mobi{ 
+        width:90%;
+        padding-bottom: 1em;
     }
 }
 
@@ -4127,47 +4134,8 @@ video {
     #mobi{ 
         width:100%;
         padding-bottom: 1em;
-    }
-}
-
-
-
-
-#oracle{
-    width: 80%; 
-    height:auto;
-    padding-bottom: 0em;
-}
-
-@media screen and (max-width: 1280px) {
-    #oracle{ 
-        width:92%;
-        padding-bottom: 0em;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #oracle{ 
-        width: 92%;
-        padding-bottom: 0.1em;
-    }
-
-}
-
-#pitt{
-    width: 90%; 
-    height:auto;
-}
-
-@media screen and (max-width: 1280px) {
-    #pitt{ 
-        width: 80%
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #pitt{ 
-        width: 90%
+		margin-left: auto;
+		margin-right:auto;
     }
 }
 
@@ -4175,109 +4143,215 @@ video {
 #pnc{
     width: 65%; 
     height:auto;
+    padding-bottom: 0em;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 980px) {
     #pnc{ 
-        width: 65%;
-        padding-bottom: 0em;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #pnc{ 
-        width: 65%;
+        width:55%;
         padding-bottom: 1em;
     }
 }
 
-
-
-#argo{
-    width: 90%; 
-    height:auto;
-}
-
-
-@media screen and (max-width: 1380px) {
-    #argo{ 
-        width: 90%;
-        padding-bottom: 0em;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    #argo{ 
-        width: 90%;
-        padding-bottom: 0em;
-    }
-}
-
 @media screen and (max-width: 750px) {
-    #argo{ 
+    #pnc{ 
         width: 70%;
-        padding-bottom: 1em;
+        padding-bottom: 0.1em;
+		margin-top: -1em;
+    }
+
+}
+
+#pitt{
+    width: 57%; 
+	margin-left: -50%;
+    height:auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #pitt{ 
+        width: 65%
     }
 }
 
+@media screen and (max-width: 750px) {
+    #pitt{ 
+        width: 55%;
+		margin-left: 0%;
+		margin-top: -1em;
+    }
+}
 
-#iamrobotics{
-    width: 110%; 
+#rrai{
+    width: 70%; 
     height:auto;
 }
 
 @media screen and (max-width: 1380px) {
-    #iamrobotics{ 
-        width: 100%;
+    #rrai{ 
+        width: 65%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #rrai{ 
+        width: 65%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #rrai{ 
+		padding-top: 0.6em;
+        width: 50%;
+        padding-bottom: 1em;
+    }
+}
+
+#cadence{
+    width: 55%; 
+	margin-left: -20%;
+    height:auto;
+}
+@media screen and (max-width: 1380px) {
+    #cadence{ 
+        width: 55%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #cadence{ 
+        width: 45%;
+		margin-left: auto;
+		margin-right: auto;
+        padding-bottom: 1em;
+		margin-top:-0.5em
+    }
+}
+
+
+#rti{
+	margin-left: 30px;
+    width:65%; 
+    height:auto;
+}
+
+@media screen and (max-width: 1380px) {
+    #rti{ 
+        width: 65%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 1020px) {
-    #iamrobotics{ 
-        width: 100%;
+    #rti{ 
+        width: 65%;
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #rti{ 
+        width: 50%;
         padding-bottom: 0em;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #iamrobotics{ 
-        width: 80%;
+    #rti{ 
+        width: 90%;
         padding-bottom: 0.5em;
+		padding-left: 0;
+		margin-left: 0;
+		display: inline-block;
     }
 }
 
-#skydio{
-    width: 100%; 
+#ibm{
+    width: 65%; 
     height:auto;
 }
 
 @media screen and (max-width: 1380px) {
-    #skydio{ 
-        width: 90%
+    #ibm{ 
+        width: 65%
     }
 }
 
-
-@media screen and (max-width: 1280px) {
-    #skydio{ 
-        width: 90%
+@media screen and (max-width: 1020px) {
+    #ibm{ 
+        width: 65%;
+        padding-bottom: 0em;
     }
 }
+
 
 @media screen and (max-width: 750px) {
-    #skydio{ 
-        width: 60%
+    #ibm{ 
+        width: 80%;
+		margin-left: -0.5em;
     }
 }
 
 /* for the footer */
 .sponsor-centering{
     width: 100%;
-    margin-left: -14px;
+    margin-left: 0;
     overflow-x: visible;
     overflow-y: visible;
     
+}
+
+.sponsor-layout{
+	display:block; 
+	align-content: center; 
+	justify-content: center; 
+	align-self: center;
+}
+
+.width-setting-50{
+	width:50%;
+}
+
+@media screen and (max-width: 750px) {
+    .width-setting-50{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 50%
+    }
+}
+
+
+
+.width-setting-15{
+	width:15%;
+}
+
+
+@media screen and (max-width: 750px) {
+    .width-setting-15{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 20%
+    }
+}
+
+
+.width-setting-70over3 {
+	width:23%;
+}
+
+@media screen and (max-width: 750px) {
+    .width-setting-70over3{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 50%
+    }
 }
 
 #sponsor-row-1{
@@ -4297,8 +4371,12 @@ video {
 
 @media screen and (max-width: 750px) {
     #sponsor-row-1{
-        margin-right: auto;
+		width: 100%;
+		display:block;
+		margin-right: auto;
         margin-left: auto;
+		text-align: center;
+
     }
 }
 
@@ -4306,19 +4384,26 @@ video {
     padding-top: 0em;
     margin-right: auto;
     margin-left: auto;
-    width: 63%
+    width: 80%;
 }
 
 @media screen and (max-width: 1700px) {
     #sponsor-row-2{ 
         padding-top: 0em;
-        width: 90%
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 750px) {
     #sponsor-row-2{ 
+		width: 100%;
         padding-top: 0em;
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right:auto
+		
+		
     }
 }
 
