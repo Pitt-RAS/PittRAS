@@ -104,7 +104,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
-		font-size: 13.5pt;
+		font-size: 12pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
 		line-height: 1.5em;
@@ -113,7 +113,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -121,7 +121,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11.5pt;
 			}
 
 		}
