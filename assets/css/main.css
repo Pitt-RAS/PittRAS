@@ -4141,25 +4141,64 @@ video {
 
 
 #pnc{
-    width: 65%; 
+    width: 100%; 
     height:auto;
     padding-bottom: 0em;
 }
 
 @media screen and (max-width: 980px) {
     #pnc{ 
-        width:55%;
+        width:100%;
         padding-bottom: 1em;
     }
 }
 
 @media screen and (max-width: 750px) {
     #pnc{ 
-        width: 70%;
+        width: 90%;
         padding-bottom: 0.1em;
 		margin-top: -1em;
     }
+}
 
+#aerotech{
+    width: 100%; 
+    height:auto;
+    padding-bottom: 0em;
+}
+
+@media screen and (max-width: 980px) {
+    #aerotech{ 
+        width:100%;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #aerotech{ 
+        width: 90%;
+        padding-bottom: 0.1em;
+    }
+}
+
+#roaringcreek{
+    width: 100%; 
+    height:auto;
+    padding-bottom: 0em;
+}
+
+@media screen and (max-width: 980px) {
+    #roaringcreek{ 
+        width:100%;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #roaringcreek{ 
+        width: 90%;
+        padding-bottom: 0.1em;
+    }
 }
 
 #pitt{
@@ -4324,7 +4363,18 @@ video {
     }
 }
 
+.width-setting-25{
+	width:25%;
+}
 
+@media screen and (max-width: 750px) {
+    .width-setting-25{
+        margin-right: auto;
+        margin-left: auto;
+		padding-left: 0;
+        width: 20%
+    }
+}
 
 .width-setting-15{
 	width:15%;
