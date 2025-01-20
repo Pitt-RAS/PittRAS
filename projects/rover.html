@@ -7,11 +7,11 @@
 
 <html>
 	<head>
-		<title>Rover | RAS@Pitt</title>
+		<title>FILLIN | RAS@Pitt</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
-        <link rel="icon" href="../images/rover/Full Rover in Benedum Lobby.jpg">
+        <link rel="icon" href="../images/favicon/favicon.png">
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -60,7 +60,6 @@
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-
                                 <section className="mb-8">
                                     <h2 className="text-2xl font-bold mb-4">Rover Team Overview</h2>
                                         <p className="text-gray-700">
@@ -69,92 +68,99 @@
                                             There are several systems that are being worked on for the rover. Main systems include the chassis, 
                                             the arm, the science module, and autonomous control.
                                         </p>
+                                        
+                                        <div style="text-align:center; gap: 20px;">
+                                            <img src="../images/projects/rover/Full Rover in Benedum Lobby.jpg" width="700" height="700">
+                                            <p> Full Rover Assembly </p>
+                                        </div>
                                 </section>
+                                    <h2>Design</h2>
 
-                               
-                                
-                                <ul>
-                                    <h3 className="text-xl font-semibold mb-2">Chassis</h3>
-                                    <li>
-                                        Our chassis is mainly constructed out of aluminum. The mid section with the differential is made 
-                                        primarily out of steel as most of the weight needs to be supported. The chassis features a tank-drive 
+                                    <h4>Chassis</h4>
+                                    <p>Our chassis is mainly constructed out of aluminum. The midsection with the differential is made 
+                                        rimarily out of steel as most of the weight needs to be supported. The chassis features a tank-drive 
                                         design with a differential to traverse over rocky/uneven terrain. Our rover uses 6 wheels that were 3D-printed 
-                                        using TPU. Using TPU allowed for a more "springy" wheel for shock absorption and tread. 
-                                    </li>
+                                        using TPU. Using TPU allowed for a more "springy" wheel for shock absorption and tread.</p>
 
-                                    <p> </p>
+                                        <div style="display: flex; justify-content: center; gap: 20px;"> 
+                                            <div>
+                                                <img src="../images/projects/rover/real-img-sim.jpg" width="650" height="540">
+                                                <p> Chassis Stress Simulation </p>
+                                            </div>
+
+                                            <div>
+                                                <img src="../images/projects/rover/real-img-chassis.jpg" width="700" height="530">
+                                                <p> Chassis CAD </p>
+                                            </div>
+                                        </div>
                                     
-                                    <h3 className="text-xl font-semibold mb-2">Robotic Arm</h3>
-                                    <li> 
-                                        Our current plan is to go with a three-segment arm. There will also be a hand attached to the end of the arm 
-                                        to perform lifting/grasping tasks. The entire arm set-up will be constructed on a rotating base to provide a full 
-                                        spherical range of motion.  
-                                    </li>
 
-                                    <p> </p>
-                                    <h3 className="text-xl font-semibold mb-2">Science Module</h3>
-                                    <li> 
-                                        This module is intended to take “samples" (dirt or rocks) from the ground 
-                                        and analyze them for signs of life. Current methods of performing this analysis include GelRed and ATP Luminescence. 
-                                        When using GelRed, DNA signatures shine red under UV light, and ATP Luminescence requires the use of a luminometer.
-                                    </li>
+                                    <h4>Arm</h4>
+                                    <p>Our current plan is to go with a three-segment arm. There will also be a hand attached to the end of the arm to 
+                                        perform lifting/grasping tasks. The entire arm setup will be constructed on a rotating base to provide a full 
+                                        spherical range of motion.</p>
+                                    
+                                        <div style="display: flex; justify-content: center; gap: 20px;"> 
+                                            <div>
+                                                <img src="../images/projects/rover/Arm Base Gearbox Solidworks Model.png">
+                                                <p> Arm Base Gearbox </p>
+                                            </div>
 
-                                    <p> </p>
-                                    <h3 className="text-xl font-semibold mb-2">Autonomous Control</h3>
-                                    <li>
-                                      Currently in development. We will be exploring camera usage, GPS usage, and LIDAR. 
-                                    </li>
-                                </ul>
+                                            <div>
+                                                <img src="../images/projects/rover/Current Hand Solidworks Model.png" width="500" height="530" >
+                                                <p> Current Hand of the Arm </p>
+                                            </div>
+                                                
+                                        </div>    
 
+                                    <h4>Science Module</h4>
+                                    <p>This module is intended to take "samples" (dirt or rocks) from the ground and analyze them for signs of life. 
+                                        Current methods of performing this analysis include GelRed and ATP Luminescence. When using GelRed, DNA signatures 
+                                        shine red under UV light, and ATP Luminescence requires the use of a luminometer.</p>
 
-                                <p>
-                                    The following autonomous behaviors were demonstrated on the RAS drone in 2018:
+                                    <h4>Autonomous Control</h4>
+                                    <p>Currently in development. We will be exploring camera usage, GPS usage, and LIDAR.</p>
+
+                                    <h2>Control System</h2>
+                                    <p>Control of the rover is centered around an Nvidia Jetson Nano, which serves as the primary computer. 
+                                        The Jetson communicates to an Arduino Microcontroller which enables execution of the Robot Operating System (ROS2). 
+                                        The Arduino microcontroller interfaces directly with all onboard sensory apparatus and actuation mechanisms, while the 
+                                        cameras are connected directly to the Jetson to leverage CUDA-accelerated processing capabilities.</p>
+
+                                    <!-- <h2>Images</h2>
+                                    <p>[Images go here]</p> -->
+
+                                    <h2>University Rover Competition Overview</h2>
+                                    <p>The University Rover Competition (URC) is an annual competition held in the desert of Utah. The competition being 
+                                        in Utah is the closest that students can get to simulating Mars. To get into the competition, teams have to pass 
+                                        two rounds of qualifiers. The top 36 teams will get to move on to the actual competition. The actual competition 
+                                        has four main missions:</p>
+
                                     <ul>
-                                        <li>Autonomous flight</li>
-                                        <li>Localizing and remaining within the arena</li>
-                                        <li>Avoidance of moving obstacles</li>
-                                        <li>Blocking and landing on moving targets</li>
+                                        <li><strong>Delivery Mission:</strong> Assisting astronauts in the field by picking up, transporting, and delivering items.</li>
+                                        <li><strong>Equipment Servicing Mission:</strong> Perform service operations on a mock-up lander. 
+                                            Operations could include picking up objects, opening and closing storage devices, typing, and controlling a joystick.</li>
+                                        <li><strong>Autonomous Navigation Mission:</strong> Navigate to tagged locations without human assistance. This can 
+                                            be done with a camera and global positioning coordinates.</li>
+                                        <li><strong>Science Mission:</strong> Collect a sample of dirt/rock and analyze for signs of life.</li>
                                     </ul>
-                                </p>
 
-                                <div class="box alt">
-                                    <div class="row gtr-50 gtr-uniform">
-                                        <div class="col-4"><span class="image fit"><img src="../images/projects/iarc/iarc_drone_zoomed.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="../images/iarc_team.jpg" alt="" /></span></div>
-                                        <div class="col-4"><span class="image fit"><img src="../images/projects/iarc/motion-planner.png" alt="" /></span></div>
-                                    </div>
-                                </div>
+                                    <p>URC website: <a href="https://urc.marssociety.org/home/requirements-guidelines" target="_blank">
+                                        https://urc.marssociety.org/home/requirements-guidelines</a></p>
 
-                                <h2>Team Members</h2>
-                                <p>All members were undergrads at Pitt except for a few graduate students and some RAS alumni who came back to work on things that helped hone their professional skills. 
-                                    This includes but is not limited to:
-                                </p>
-                                <p>
-                                    Aaron Miller, Adriena Cribb, Andrew Harman, Andrew Lobos, Andrew Saba, Ankit Joshi, Brandon Contino, Caroline Collopy, Conner Babinchak, Dan Gilmour, Elliot Miller, Evan Becker, 
-                                    Garret Sultzbach, 
-                                    Harrison Green, Jack Bartley, Jackie Sharp, Jay Maier, John Mas, Jeff Deely, Kaylene Stocking, Levi Burner, Liam Berti, Liam Rethore, Matt Belding, Matt Bilker, Nathan Todd, 
-                                    Patrick Snyder, Quentin Torgerson, Quinnan Gill, Ritesh Misra, Sridhar Reddy Velagala, Zach Egolf, and Zac Yu
-                                </p>
+                                    <h2>Leadership Information (2024-2025)</h2>
+                                    <p>The rover project exists within the Robotics and Automation Society (RAS). We do our own work, but at the end of the day, 
+                                        the chief engineer of the rover team reports to the president of RAS. Below are the current leadership roles within the rover team. 
+                                        If you are interested in getting involved with the project, reach out to our Chief Engineer or check out our Discord: <a href="https://discord.gg/NnfQTxMyBk">https://discord.gg/NnfQTxMyBk</a></p>
 
-                                <h2>Papers, Posters, and Presentations</h2>
-                                <p>
                                     <ul>
-                                        <li><a href="iarc/IARC-2016-1st-Meeting-Presentation.pdf">2016 First Meeting Presentation</a></li>
-                                        <li><a href="iarc/IARC-2017-Intro-Meeting-Presentation.pdf">2017 Intro Meeting Presentation</a></li>
-                                        <li><a href="iarc/IARC-Symposium-Presentation-2017.pdf">2017 IARC Symposium Presentation</a></li>
-                                        <li><a href="iarc/iarc7.pdf">2017 IARC Symposium Paper</a></li>
-                                        <li><a href="iarc/IARC-2017-Poster.pdf">2017 Project Poster</a></li>
-                                        <li><a href="iarc/iarc-PAAVSummit-2018-Poster.pdf">2018 PAAV Summit Poster</a></li>
-                                        <li><a href="iarc/IARC-Symposium-Presentation-2018.pdf">2018 IARC Symposium Presentation</a></li>
-                                        <li><a href="iarc/iarc-technical-paper-2018.pdf">2018 IARC Symposium Paper</a><i>(Won Best Technical Paper)</i></li>
-
+                                        <li><strong>Chief Engineer:</strong> Gabriel Warriner (<a href="mailto:gfw6@pitt.edu">gfw6@pitt.edu</a>)</li>
+                                        <li><strong>Mechanical Lead:</strong> Elliott Warriner</li>
+                                        <li><strong>Software Lead:</strong> Alexander Kwaskinski</li>
+                                        <li><strong>Treasurer:</strong> Aragya Goyal</li>
                                     </ul>
-                                </p>
 
-                                <h2>And More!</h2>
-                                <p>Please visit our <a href="https://pitt-ras.github.io/projects/IARC/">project archives</a> for photos and a extremely deep technical dive into the engineering behind the IARC drones. It can be found in the "Posts" section!
-                                </p>
-                            </div>
+							</div>
 						</section>
 					</article>
 
