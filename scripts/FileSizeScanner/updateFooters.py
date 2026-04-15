@@ -6,7 +6,7 @@ directory = '../'
 
 # The new HTML we want to inject
 new_footer = '<div id="footer"></div>'
-script_tag = '<script src="assets/js/loadCommonFooter.js"></script>\n<script src="assets/js/main.js">'
+script_tag = '<script src="assets/js/loadCommonFooter.js"></script>\n\t\t\t<script src="assets/js/main.js">'
 
 # Walk through all files and folders in the directory
 for root, dirs, files in os.walk(directory):
@@ -26,7 +26,7 @@ for root, dirs, files in os.walk(directory):
             # 2. Inject the script right before the closing </body> tag
             # We check if the script is already there so we don't accidentally add it twice
             if 'loadCommonFooter.js' not in updated_content:
-                updated_content = re.sub(r'<script src="assets/js/main.js">', script_tag, updated_content, flags=re.IGNORECASE)
+                updated_content = re.sub(r'<script src=".*?main.js">', script_tag, updated_content, flags=re.IGNORECASE)
             
             # Write the changes back to the file
             if content != updated_content:
