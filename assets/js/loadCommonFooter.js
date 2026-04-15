@@ -28,5 +28,5 @@ async function loadHTML(elementId, filePath) {
 
 // Load header and footer when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-    loadHTML('footer', '/PittRAS/commonHTML/commonFooter.html'); // Load footer into #footer
+    loadHTML('footer', '/commonHTML/commonFooter.html'); // Load footer into #footer
 });
